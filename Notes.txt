@@ -1,0 +1,20 @@
+1. Phase: Statische Tests: 
+An den Wanlder wurden zwei Testfälle probiert. 2x 4R7 Parallel, 3x 4R7 parallel
+Es wurden Temperatur, IOUT, VIN, VOUT gemessen und dazu POW nachträglich berechnet. 
+Es zeigte sich, dass der Ausgangsstrom, sobald eine Sensortemperatur von 62° C überschritten wurde, leicht abgesunken ist. Des Weiteren liefert der TEmperatursensor manchmal den Fehlerwert -20.51. 
+Nach eine Temperaturprüfung durch eine Wärmekamera, hat sich gezeigt, dass den Sensor eine Temperaturabweichung von etwa 10°C vom heißesten Punkt hat. Dies wurde analysiert, und versucht per offset zu korrigieren, indem zuerst die Temperatur am heißesten Punkt per Thermistor gemessen wurde.
+
+Die Datenerfassung erfolgte zunächst per PicKit serial analyzer auf einer Win 10 Platform in der Sprache C# (http://ww1.microchip.com/downloads/en/DeviceDoc/51647C.pdf) per I2C bus. Die Library, für C# kann https://www.microchip.com/Developmenttools/ProductDetails/DV164122 runtergeladen werden. 
+
+Als nächstes wurde auf einem Raspberry Pi eine Python Programm aufgebaut, welches ebenfalls den Wanlder per I2C auslesen kann und die Daten parallel dazu visualisiert. Die Nachfolgende Arbeit befasst sich damit, .Wav dateien vom Pi ausgeben zu lassen, diese in einen Audioverstärker zu führen, welches wiederum an eine dynamische Last angeschlossen ist.
+Die o. g. Wave files werden per Skript eines anderen Studenten aus CSV dateien generiert 
+(http://www.python-exemplarisch.ch/drucken.php?inhalt_mitte=raspi/de/sound.inc.php)
+
+Die Verarbeitung der Daten erfolgt per Python Skript, dabei werden Durchschnitt, Standardabweichung, minimum ,maximum etc berechnet. Ebenso besteht die möglichkeit einen Frequenzfilter anzuwenden, um die graphische visualisierung leserlicher zu machen. Ebenso besteht die Möglichkeit verschiedene Datensätze gegeneinander zu plotten, z. B. IOUT vs TEMP  
+
+
+
+Zum Abschluss der Arbeit werden Kurze festgelegte, periodische Datensätze gemessen und zum training eines neuronalen Netzes verwendet. Das Ziel davon ist aufzuzeigen, dass die Daten des Wandlers praktisch verwendet werden können und legitime ergebnisse erzielen. 
+
+
+

@@ -1,0 +1,15 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{3}{}%
+\contentsline {section}{\numberline {2}Theoretischer Hintergrund}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Grundlagen zum verwendeten Hybrid-Buck-Wandler}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Grundlagen I2C}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Hintergrund der verwendeten Platformen, Programmiersprachen und Bibliotheken}{0}{}%
+\contentsline {subsection}{\numberline {2.4}Grundlagen Neuronale Netze}{0}{}%
+\contentsline {subsection}{\numberline {2.5}Statische Datenerfassung}{4}{}%
+\contentsline {subsection}{\numberline {2.6}Dynamische Datenerfassung}{4}{}%
+\contentsline {subsubsection}{\numberline {2.6.1}Echtzeitmonitoring}{6}{}%
+\contentsline {subsubsection}{\numberline {2.6.2}Laufzeitmonitoring}{6}{}%
+\contentsline {subsubsection}{\numberline {2.6.3}Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}{6}{}%
+\contentsline {subsection}{\numberline {2.7}Simple Testfälle im Bereich Machine learning}{6}{}%
+\contentsline {section}{\numberline {3}Ergebnisse}{0}{}%
+\contentsline {section}{\numberline {4}Literaturverzeichnis}{3}{}%
