@@ -64,15 +64,19 @@ f\textsubscript{nyquist} = 1/2 * f\textsubscript{abtastrate}
 \begin{flushleft}
 Die Abtastrate kann berechnet werden, da die Parameter des I²C Protokolls bekannt sind. Zeitliche Abweichungen die innerhalb des Codes entstehen sollen hier vernachlässigt werden.\hl{Es werden pro Parameter 2 Byte an Daten angefragt, somit ist pro Transfer eine Bitmenge von 1+8+1+8+1+8+1+1 = 29 bits erforderlich Bei einer Taktrate von 80 KHz ist das folglich eine Bitrate von T = 1 / 800000 = 0,0000125 s == 1 bit , -> 29 Bit = 0,0000125 *29 = 0,003625 pro Parameter *4 für alle Parameter = 0,00145 s für alle, 1/ 0,00145 = 689 Hz...} 
 
-\hl{Experimentelle Werte zeigen, dass die maximale Abtastfrequenz bei ca. 100 Hz liegt, somit ist die Nyquistfrequent des Signals 50Hz.}
+\hl{Experimentelle Werte zeigen, dass die maximale Abtastfrequenz bei ca. 100 Hz liegt, somit ist die Nyquistfrequenz des Signals 50Hz.}
 
 Die linken Wert repräsentieren die Zeitstellen in Sekunden, die Rechten sind die Signaldaten, welche dann per Programm zu einer Kurve interpoliert werden. 
 \end{flushleft}
 
 \subsubsection{Echtzeitmonitoring}
+Das Ziel des Echtzeitmonitoring ist es, in laufenden Betrieb Aussagen darüber zu treffen welche Last gerade an dem Wandler angeschlossen ist. Eine Last ist in diesem Fall ein Audiosignal, welches durch einen Stereo Verstärker, welcher an den Wandler angeschlossen ist, verstärkt wird.  Zur Klassifizierung, welche Last, bzw. welches Signal gerade am Stereoverstärker angeschlossen ist, wird ein neuronales Netz verwendet, welches auf dem Raspberry Pi läuft. Als Testfälle wurden Sinussignal mit verschiedenen Frequenzen verwendet, um die allgemeine Anwendbarkeit von Deeplearning Algorithmen zu verifizieren. 
+
+
+
 
 \subsubsection{Laufzeitmonitoring}
 
-\subsubsection{Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}
+Das Ziel des Lauzeitmonitoring ist es, einen Signalverlauf aufzuzeichnen und diese Daten dann im Nachgang zu analysieren und zu Klassifizieren. 
 
-\subsection{Simple Testfälle im Bereich Machine learning}
+\subsubsection{Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}
