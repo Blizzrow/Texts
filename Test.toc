@@ -8,9 +8,8 @@
 \contentsline {section}{\numberline {3}Methodik}{7}{}%
 \contentsline {subsection}{\numberline {3.1}Statische Datenerfassung}{7}{}%
 \contentsline {subsection}{\numberline {3.2}Dynamische Datenerfassung}{7}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}Echtzeitmonitoring}{1}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}Laufzeitmonitoring}{1}{}%
-\contentsline {subsubsection}{\numberline {3.2.3}Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}{1}{}%
-\contentsline {subsection}{\numberline {3.3}Simple Testfälle im Bereich Machine learning}{1}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Echtzeitmonitoring}{9}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Laufzeitmonitoring}{10}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}{10}{}%
 \contentsline {section}{\numberline {4}Ergebnisse}{0}{}%
 \contentsline {section}{\numberline {5}Literaturverzeichnis}{2}{}%

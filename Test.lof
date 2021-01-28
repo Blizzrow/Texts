@@ -1,10 +1,11 @@
 \babel@toc {ngerman}{}
 \contentsline {figure}{\numberline {1}{\ignorespaces I2C Bus Beispiel Quelle: https://www.analog.com/en/technical-articles/i2c-primer-what-is-i2c-part-1.html\relax }}{4}{}%
-\contentsline {figure}{\numberline {2}{\ignorespaces In Audacity generiertes 10 Hz Sinussignal\relax }}{0}{}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Effektive Frequenz eines 10 Hz Signals ist 20 Hz, weil, weil es für den Verstärker egal ist ob + oder - Signal \relax }}{0}{}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Tatsächlich gemessene Leistung des Wandlers\relax }}{1}{}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Ausgangsstrom über die Zeit mit Filter\relax }}{0}{}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Temperatur über die Zeit\relax }}{0}{}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Ausgangsstrom über die Zeit\relax }}{0}{}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Temperaturvergleich mehrerer Wandler\relax }}{0}{}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Stromvergleich mehrerer Wandler\relax }}{0}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces In Audacity generiertes 10 Hz Sinussignal\relax }}{7}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces In Audacity generiertes 10 Hz Sinussignal\relax }}{8}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Effektive Frequenz eines 10 Hz Signals ist 20 Hz, weil, weil es für den Verstärker egal ist ob + oder - Signal \relax }}{8}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Tatsächlich gemessene Leistung des Wandlers\relax }}{9}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Ausgangsstrom über die Zeit mit Filter\relax }}{0}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Temperatur über die Zeit\relax }}{0}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Ausgangsstrom über die Zeit\relax }}{0}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Temperaturvergleich mehrerer Wandler\relax }}{0}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Stromvergleich mehrerer Wandler\relax }}{0}{}%

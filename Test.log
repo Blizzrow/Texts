@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.22)  3 JAN 2021 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.22)  27 JAN 2021 18:49
 entering extended mode
 **./Test.tex
 (Test.tex
@@ -342,8 +342,14 @@ Things are pretty mixed up, but I think the worst is over.
 \openout2 = `Methodik.aux'.
 
  (Methodik.tex
+<Pictures/Dyn_Schaltung.jpg, id=57, 657.45625pt x 613.29124pt>
+File: Pictures/Dyn_Schaltung.jpg Graphic file (type jpg)
+<use Pictures/Dyn_Schaltung.jpg>
+Package pdftex.def Info: Pictures/Dyn_Schaltung.jpg  used on input line 13.
+(pdftex.def)             Requested size: 341.43782pt x 113.80334pt.
+
 ! Undefined control sequence.
-l.12 \frac{U}{R} = I \tab
+l.20 \frac{U}{R} = I \tab
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -355,27 +361,27 @@ and I'll forget about whatever was undefined.
 
 
 
-]
-<Pictures/Sinus_Aud.png, id=62, 472.01344pt x 107.65219pt>
+ <./Pictures/Dyn_Schaltung.jpg>]
+<Pictures/Sinus_Aud.png, id=63, 472.01344pt x 107.65219pt>
 File: Pictures/Sinus_Aud.png Graphic file (type png)
 <use Pictures/Sinus_Aud.png>
-Package pdftex.def Info: Pictures/Sinus_Aud.png  used on input line 37.
+Package pdftex.def Info: Pictures/Sinus_Aud.png  used on input line 45.
 (pdftex.def)             Requested size: 341.44113pt x 113.81345pt.
-<Pictures/Clapped_Sine.png, id=63, 420.06938pt x 312.41719pt>
+<Pictures/Clapped_Sine.png, id=64, 420.06938pt x 312.41719pt>
 File: Pictures/Clapped_Sine.png Graphic file (type png)
 <use Pictures/Clapped_Sine.png>
-Package pdftex.def Info: Pictures/Clapped_Sine.png  used on input line 43.
+Package pdftex.def Info: Pictures/Clapped_Sine.png  used on input line 51.
 (pdftex.def)             Requested size: 341.43373pt x 113.80965pt.
-<Pictures/TatsDaten.png, id=64, 925.20656pt x 322.20375pt>
+<Pictures/TatsDaten.png, id=65, 925.20656pt x 322.20375pt>
 File: Pictures/TatsDaten.png Graphic file (type png)
 <use Pictures/TatsDaten.png>
-Package pdftex.def Info: Pictures/TatsDaten.png  used on input line 49.
+Package pdftex.def Info: Pictures/TatsDaten.png  used on input line 57.
 (pdftex.def)             Requested size: 341.43166pt x 113.81036pt.
-
+ [8 <./Pictures/Sinus_Aud.png> <./Pictures/Clapped_Sine.png>]
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -388,7 +394,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -397,7 +403,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -410,7 +416,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -419,7 +425,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -432,7 +438,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -445,7 +451,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -456,7 +462,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 ! Missing { inserted.
 <to be read again> 
                    }
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -470,7 +476,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -485,7 +491,7 @@ See the soul package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I came across hyphenatable material enclosed in group braces,
 which I can't handle. Either drop the braces or make the material
@@ -496,7 +502,7 @@ I'm leaving a black square so that you can see where I am right now.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -509,7 +515,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -518,7 +524,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -531,7 +537,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -540,7 +546,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -553,7 +559,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -566,7 +572,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -577,7 +583,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 ! Missing { inserted.
 <to be read again> 
                    }
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -591,7 +597,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -606,7 +612,7 @@ See the soul package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
+l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
                                                   
 I came across hyphenatable material enclosed in group braces,
 which I can't handle. Either drop the braces or make the material
@@ -614,11 +620,10 @@ unbreakable using an \mbox (\hbox). Note that a space
 also counts as possible hyphenation point. See page 4 of the manual.
 I'm leaving a black square so that you can see where I am right now.
 
-[0 <./Pictures/Sinus_Aud.png> <./Pictures/Clapped_Sine.png>]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.70 \end{flushleft}
+l.78 \end{flushleft}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -629,7 +634,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.70 \end{flushleft}
+l.78 \end{flushleft}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -637,21 +642,27 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-) [1 <./Pictures/TatsDaten.png>]
+
+Overfull \hbox (3.20708pt too wide) in paragraph at lines 81--82
+\OT1/cmr/m/n/10.95 Das Ziel des Echt-zeit-mo-ni-to-ring ist es, in lau-fen-den 
+Be-trieb Aus-sa-gen dar[]uber
+ []
+
+[9 <./Pictures/TatsDaten.png>]) [10]
 \openout2 = `Ergebnisse.aux'.
 
  (Ergebnisse.tex
-<Pictures/B1_3P_IOUT.png, id=75, 499.8675pt x 259.7203pt>
+<Pictures/B1_3P_IOUT.png, id=79, 499.8675pt x 259.7203pt>
 File: Pictures/B1_3P_IOUT.png Graphic file (type png)
 <use Pictures/B1_3P_IOUT.png>
 Package pdftex.def Info: Pictures/B1_3P_IOUT.png  used on input line 9.
 (pdftex.def)             Requested size: 341.44612pt x 170.71448pt.
-<Pictures/B1_3P_TEMP.png, id=76, 484.81125pt x 274.77657pt>
+<Pictures/B1_3P_TEMP.png, id=80, 484.81125pt x 274.77657pt>
 File: Pictures/B1_3P_TEMP.png Graphic file (type png)
 <use Pictures/B1_3P_TEMP.png>
 Package pdftex.def Info: Pictures/B1_3P_TEMP.png  used on input line 16.
 (pdftex.def)             Requested size: 341.45168pt x 170.72028pt.
-<Pictures/B1_P3_IOUT_Rauschen.png, id=77, 507.39563pt x 261.97874pt>
+<Pictures/B1_P3_IOUT_Rauschen.png, id=81, 507.39563pt x 261.97874pt>
 File: Pictures/B1_P3_IOUT_Rauschen.png Graphic file (type png)
 <use Pictures/B1_P3_IOUT_Rauschen.png>
 Package pdftex.def Info: Pictures/B1_P3_IOUT_Rauschen.png  used on input line 2
@@ -798,12 +809,12 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<Pictures/3_Boards_Temp.png, id=83, 462.528pt x 346.896pt>
+<Pictures/3_Boards_Temp.png, id=87, 462.528pt x 346.896pt>
 File: Pictures/3_Boards_Temp.png Graphic file (type png)
 <use Pictures/3_Boards_Temp.png>
 Package pdftex.def Info: Pictures/3_Boards_Temp.png  used on input line 33.
 (pdftex.def)             Requested size: 341.44667pt x 170.71628pt.
-<Pictures/Comp_IOUT.png, id=84, 462.528pt x 346.896pt>
+<Pictures/Comp_IOUT.png, id=88, 462.528pt x 346.896pt>
 File: Pictures/Comp_IOUT.png Graphic file (type png)
 <use Pictures/Comp_IOUT.png>
 Package pdftex.def Info: Pictures/Comp_IOUT.png  used on input line 40.
@@ -1296,7 +1307,7 @@ I'm leaving a black square so that you can see where I am right now.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.50 ...rklärbar, dass \hl{Hier Defekt einfügen}
+l.50 ...dler keinen stationären Zustand erreicht}
                                                   . Ein weiterer Aspekt, der...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1309,7 +1320,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.50 ...rklärbar, dass \hl{Hier Defekt einfügen}
+l.50 ...dler keinen stationären Zustand erreicht}
                                                   . Ein weiterer Aspekt, der...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1318,7 +1329,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.50 ...rklärbar, dass \hl{Hier Defekt einfügen}
+l.50 ...dler keinen stationären Zustand erreicht}
                                                   . Ein weiterer Aspekt, der...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1331,7 +1342,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.50 ...rklärbar, dass \hl{Hier Defekt einfügen}
+l.50 ...dler keinen stationären Zustand erreicht}
                                                   . Ein weiterer Aspekt, der...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1340,7 +1351,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.50 ...rklärbar, dass \hl{Hier Defekt einfügen}
+l.50 ...dler keinen stationären Zustand erreicht}
                                                   . Ein weiterer Aspekt, der...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1353,7 +1364,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.50 ...rklärbar, dass \hl{Hier Defekt einfügen}
+l.50 ...dler keinen stationären Zustand erreicht}
                                                   . Ein weiterer Aspekt, der...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1366,7 +1377,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 ...rklärbar, dass \hl{Hier Defekt einfügen}
+l.50 ...dler keinen stationären Zustand erreicht}
                                                   . Ein weiterer Aspekt, der...
 
 The document does not appear to be in UTF-8 encoding.
@@ -1378,7 +1389,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 ! Missing { inserted.
 <to be read again> 
                    }
-l.50 ...rklärbar, dass \hl{Hier Defekt einfügen}
+l.50 ...dler keinen stationären Zustand erreicht}
                                                   . Ein weiterer Aspekt, der...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -1392,7 +1403,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 ...rklärbar, dass \hl{Hier Defekt einfügen}
+l.50 ...dler keinen stationären Zustand erreicht}
                                                   . Ein weiterer Aspekt, der...
 
 The document does not appear to be in UTF-8 encoding.
@@ -1408,7 +1419,7 @@ See the soul package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 ...rklärbar, dass \hl{Hier Defekt einfügen}
+l.50 ...dler keinen stationären Zustand erreicht}
                                                   . Ein weiterer Aspekt, der...
 
 I came across hyphenatable material enclosed in group braces,
@@ -2815,13 +2826,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4355 strings out of 479697
- 67505 string characters out of 2884124
- 393996 words of memory out of 3000000
- 21356 multiletter control sequences out of 15000+200000
+ 4362 strings out of 479697
+ 67675 string characters out of 2884124
+ 394996 words of memory out of 3000000
+ 21361 multiletter control sequences out of 15000+200000
  410496 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,6n,74p,1454b,1150s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,6n,74p,1454b,1170s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\lamer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1095.pk><E:/Latex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Latex/fonts/typ
 e1/public/amsfonts/cm/cmbx12.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmmi1
@@ -2829,9 +2840,9 @@ e1/public/amsfonts/cm/cmbx12.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmmi1
 public/amsfonts/cm/cmr10.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmr8.pfb>
 <E:/Latex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><E:/Latex/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Test.pdf (14 pages, 571121 bytes).
+Output written on Test.pdf (15 pages, 652427 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
+ 139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

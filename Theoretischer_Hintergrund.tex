@@ -20,7 +20,7 @@ Es ist zu erkennen, dass es eine Master -und mehrere Slave Komponenten gibt. Der
 
 Für die statischen Tests wurde Windows 10 als Platform und C# als Programmiersprache gewählt, da allein diese mit dem PICkit kompatibel sind. 
 
-Da sich herausgestellt hat, dass ein PicKit eine zu geringe Abtastrate ermöglicht, wurde für die dynamischen Tests ein Raspberry Pi 4 (4 GB RAM) mit der Programmiersprache Python für Datenerfassung- und Verarbeitung verwendet.
+Da sich herausgestellt hat, dass ein PicKit eine zu geringe Abtastrate ermöglicht, wurde für die dynamischen Tests ein Raspberry Pi 4 (4 GB RAM) mit der Programmiersprache Python für Datenerfassung- und Verarbeitung verwendet. Des Weiteren wurde für das Erstellen von Neuronalen Netzen die library "Tensorflow" verwendet, wobei Keras als High-Level API dient.
 
 \end{flushleft}
 
@@ -29,7 +29,7 @@ Da sich herausgestellt hat, dass ein PicKit eine zu geringe Abtastrate ermöglic
 
 Als Klassifizierungsalgorithmus wird ein Neuronales Netz mit Input Layer, zwei Hidden Layer und einem Output Layer verwendet. Neuronale Netze gehören zur Klasse des "Supervised Learning" (dt. "Betreutes Lernen"). Das Konzept von diesem Algorithmus ist es, dem Model einen Datensatz und die dazugehörige Lösung zu geben. Ausgehen davon berechnet der Algorithmus Parameter um bei gegebenen Inputdaten möglichst präzise Outputdaten zu liefern. Dieser Vorgang wird im Folgenden formell erläutert.
 
-Zur durchführung von einigen simplen Testfällen unter Punkt 3.3 ist es notwendig eines der Grundlegenden Konzepte von Machine Learning zu nennen: das Neuronale Netze. Neuronale Netze sind in ihrem Grundgedanken dem Konzept des menschlichen Gehirns nachempfunden jedoch in vielerlei hinsicht anders. In Abb. 2 erkennt man ein Diagram eines Neuronalen netzes. Die Kreise repräsentieren die Neuronen, die Kante stellen Verbindungen unter den Neuronen dar. Es ist zu beachten, das in diesem Model die Neuronen von einer Schicht N vollvermascht mit den Neuronen einer Schicht N+1 sind. Des Weiteren ist zu erkennen, dass der dargestellte Graph drei Schichten (engl. Layers) besitzt. \hl{ Der Input Layer dient dabei als Ausgangspunkt, an dieser Stelle wird in jedes Neuron ein numerischer Wert eingespeist. Alle Werte im Input Layer zusammengenommen ergeben einen Vektor V.}
+Zur durchführung einiger simpler Testfälle unter den Punkten 3.2.1 und 3.2.2 ist es notwendig, eines der Grundlegenden Konzepte von Machine Learning zu nennen: das Neuronale Netze. \hl{ In Abb. 2 erkennt man ein Diagram eines Neuronalen netzes. Die Kreise repräsentieren die Neuronen, die Kante stellen Verbindungen unter den Neuronen dar. Es ist zu beachten, das in diesem Model die Neuronen von einer Schicht N vollvermascht mit den Neuronen einer Schicht N+1 sind. Des Weiteren ist zu erkennen, dass der dargestellte Graph drei Schichten (engl. Layers) besitzt. \hl{ Der Input Layer dient dabei als Ausgangspunkt, an dieser Stelle wird in jedes Neuron ein numerischer Wert eingespeist. Alle Werte im Input Layer zusammengenommen ergeben einen Vektor V.}}
 
 Abschließend erfolgt eine weitere Matrixmultiplikation des Hidden Layers und seinen Weights, um das Output Layer zu generieren. Das Output Layer gibt, wie der Name schon sagt, die Ausgangswerte der Berechnung. Bei Klassifizierungsaufgabe sind die Werte im Output Layer Warscheinlichkeiten für die jeweiligen, zu klassifizierenden Klassen. Die Anzahl der Neuronen im Output Layer ist gleich der Anzahl der Klassen
 \end{flushleft}

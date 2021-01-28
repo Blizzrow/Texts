@@ -7,6 +7,14 @@ Somit kann der Strom berechnet werden, der durch die Widerstände fließt:
 \end{flushleft}
 
 
+
+\begin{figure}
+    \centering
+    \includegraphics[height= 4cm, width = 12cm]{Pictures/Dyn_Schaltung.jpg}
+    \caption{Versuchsaufbau der dynamischen Datenerfassung}
+\end{figure}
+
+
 \begin{equation}
 \label{Ohmsches Gesetz}
 \frac{U}{R} = I \tab
@@ -70,7 +78,7 @@ Die linken Wert repräsentieren die Zeitstellen in Sekunden, die Rechten sind di
 \end{flushleft}
 
 \subsubsection{Echtzeitmonitoring}
-Das Ziel des Echtzeitmonitoring ist es, in laufenden Betrieb Aussagen darüber zu treffen welche Last gerade an dem Wandler angeschlossen ist. Eine Last ist in diesem Fall ein Audiosignal, welches durch einen Stereo Verstärker, welcher an den Wandler angeschlossen ist, verstärkt wird.  Zur Klassifizierung, welche Last, bzw. welches Signal gerade am Stereoverstärker angeschlossen ist, wird ein neuronales Netz verwendet, welches auf dem Raspberry Pi läuft. Als Testfälle wurden Sinussignal mit verschiedenen Frequenzen verwendet, um die allgemeine Anwendbarkeit von Deeplearning Algorithmen zu verifizieren. 
+Das Ziel des Echtzeitmonitoring ist es, in laufenden Betrieb Aussagen darüber zu treffen welche Last gerade an dem Wandler angeschlossen ist. Eine Last ist in diesem Fall ein Audiosignal, welches durch einen Stereo Verstärker, welcher an den Wandler angeschlossen ist, verstärkt wird.  Zur Klassifizierung, welche Last, bzw. welches Signal gerade am Stereoverstärker angeschlossen ist, wird ein neuronales Netz verwendet, welches per Tensorflow API generiert wird. Die gemessenen Signale werden dann vom Raspberry Pi per Socket an einen Rechner geschickt, welcher dann die Daten per Neuronales Netz interpretiert und eine entsprechende Klassifizierung liefert. Als Testfälle wurden Sinussignal mit verschiedenen Frequenzen verwendet, um die allgemeine Anwendbarkeit von Deep-Learning Algorithmen zu verifizieren. 
 
 
 
@@ -80,3 +88,7 @@ Das Ziel des Echtzeitmonitoring ist es, in laufenden Betrieb Aussagen darüber z
 Das Ziel des Lauzeitmonitoring ist es, einen Signalverlauf aufzuzeichnen und diese Daten dann im Nachgang zu analysieren und zu Klassifizieren. 
 
 \subsubsection{Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}
+
+Das Ziel des Vergleichsmonitoring ist es, eine Software Struktur aufzubauen, welche es ermöglicht, mehrere Wandler gleichzeitig auf einem Raspberry Pi per I²C zu betreiben und die Daten in Echtzeit zu visualisieren und in Textdateien abzuspeichern. Dadurch, dass die verwendeten Wandler unterschiedlich Adressen besitzen, müssen keine Ergänzungen an der Schaltung durchgeführt werden, es reicht einzig die Datenleitungen (SDA, SCL) zusammenzuschalten. Während der Messung der Wandler, werden die Daten von jedem Messpunkt in Echtzeit auf ein Koordinatensystem per PyPlot übertragen. 
+
+
