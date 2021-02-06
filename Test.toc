@@ -5,11 +5,10 @@
 \contentsline {subsection}{\numberline {2.2}I2C}{4}{}%
 \contentsline {subsection}{\numberline {2.3}Verwendeten Platformen, Programmiersprachen und Bibliotheken}{5}{}%
 \contentsline {subsection}{\numberline {2.4}Neuronale Netze}{5}{}%
-\contentsline {section}{\numberline {3}Methodik}{7}{}%
-\contentsline {subsection}{\numberline {3.1}Statische Datenerfassung}{7}{}%
-\contentsline {subsection}{\numberline {3.2}Dynamische Datenerfassung}{7}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}Echtzeitmonitoring}{9}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}Laufzeitmonitoring}{10}{}%
-\contentsline {subsubsection}{\numberline {3.2.3}Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}{10}{}%
+\contentsline {section}{\numberline {3}Methodik}{2}{}%
+\contentsline {subsection}{\numberline {3.1}Statische Datenerfassung}{2}{}%
+\contentsline {subsection}{\numberline {3.2}Dynamische Datenerfassung}{2}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Echtzeitmonitoring}{4}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}{4}{}%
 \contentsline {section}{\numberline {4}Ergebnisse}{0}{}%
 \contentsline {section}{\numberline {5}Literaturverzeichnis}{2}{}%

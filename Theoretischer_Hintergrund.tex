@@ -2,8 +2,9 @@
 Dadurch bedingt, das diese Arbeit sich an vielen Konzepten aus der Signaltheorie, Elektrotechnik und Informatik bedient, ist es sinnvoll vorab einige Begriffe und Konzepte zu definieren. Aus diesem Grund, werden im Folgenden das I²C Protokoll, verwendete Software, sowie die genutzte Hardware näher erläutert werden. 
 
 \subsection{Hybrid-Buck-Wandler}
+Der Buck-Wandler nimmt als Eingangsspannung 15 - 40 Volt entgegen und reduziert diese auf festgelegte 12 V Ausgangsspannung. Der maximale Strom ist auf 10 A limitiert. Sollte der Strom das Maximum übersteigen, so wird die Spannung gedrosselt. Des Weiteren besitzt der Wandler eine I²C Schnittstelle, aus der Ausgangsspannung, Eingangsspannung, Ausgangsstrom und Temperatur des Boards gemessen und ausgelesen werden können. Die Datenleitungen des I²C Busses sind bereits auf dem Wandler selbst mit Pull-Up Widerständen ausgestattet. 
+
 \subsection{I2C}
-\begin{flushleft}
 I2C steht für Inter-Integrated Circuit und wurde von Philips Semiconductors 1982 entwickelt. Es handelt sich dabei um einen seriellen Datenbus im Master-Slave Stil. Dieses Protokoll setzt auf zwei Leitungen für den Datenaustausch, davon ist ein Kanal explizit für die Daten vorgesehen und der andere Kanal für den Takt. Der Takt beträgt im klassischen 100 KHz oder 400 KHz. 
 
 \begin{figure}
@@ -16,26 +17,66 @@ Es ist zu erkennen, dass es eine Master -und mehrere Slave Komponenten gibt. Der
 \end{flushleft}
 
 \subsection{Verwendeten Platformen, Programmiersprachen und Bibliotheken}
-\begin{flushleft}
 
 Für die statischen Tests wurde Windows 10 als Platform und C# als Programmiersprache gewählt, da allein diese mit dem PICkit kompatibel sind. 
 
-Da sich herausgestellt hat, dass ein PicKit eine zu geringe Abtastrate ermöglicht, wurde für die dynamischen Tests ein Raspberry Pi 4 (4 GB RAM) mit der Programmiersprache Python für Datenerfassung- und Verarbeitung verwendet. Des Weiteren wurde für das Erstellen von Neuronalen Netzen die library "Tensorflow" verwendet, wobei Keras als High-Level API dient.
+Da sich herausgestellt hat, dass ein PicKit eine zu geringe Abtastrate ermöglicht, wurde für die dynamischen Tests ein Raspberry Pi 4 (4 GB RAM) mit der Programmiersprache Python für Datenerfassung- und Verarbeitung verwendet. Des Weiteren wurde für das Erstellen von Neuronalen Netzen die library "Tensorflow" verwendet, wobei Keras als High-Level API dient. Die graphische Visualisierung der Daten erfolgt ausschließlich per Pyplot library.
 
 \end{flushleft}
 
 \subsection{Neuronale Netze}
-\begin{flushleft}
 
-Als Klassifizierungsalgorithmus wird ein Neuronales Netz mit Input Layer, zwei Hidden Layer und einem Output Layer verwendet. Neuronale Netze gehören zur Klasse des "Supervised Learning" (dt. "Betreutes Lernen"). Das Konzept von diesem Algorithmus ist es, dem Model einen Datensatz und die dazugehörige Lösung zu geben. Ausgehen davon berechnet der Algorithmus Parameter um bei gegebenen Inputdaten möglichst präzise Outputdaten zu liefern. Dieser Vorgang wird im Folgenden formell erläutert.
+Zur durchführung einiger simpler Testfälle unter den Punkten 3.2.1 und 3.2.2 ist es notwendig, eines der Grundlegenden Konzepte von Machine Learning zu nennen: das Neuronale Netz.
+Neuronale Netze gehören zur maschine learning Kategorie des "supervised learning". Beim supervised learning wird ein neuronales Netz anhand von Eingabedaten (Input) und bereits definierten Lösungen (Output) daraufhin optimiert, bei gegebenen Input und Output Daten eine passende Lösungsstrategie zu finden. 
 
-Zur durchführung einiger simpler Testfälle unter den Punkten 3.2.1 und 3.2.2 ist es notwendig, eines der Grundlegenden Konzepte von Machine Learning zu nennen: das Neuronale Netze. \hl{ In Abb. 2 erkennt man ein Diagram eines Neuronalen netzes. Die Kreise repräsentieren die Neuronen, die Kante stellen Verbindungen unter den Neuronen dar. Es ist zu beachten, das in diesem Model die Neuronen von einer Schicht N vollvermascht mit den Neuronen einer Schicht N+1 sind. Des Weiteren ist zu erkennen, dass der dargestellte Graph drei Schichten (engl. Layers) besitzt. \hl{ Der Input Layer dient dabei als Ausgangspunkt, an dieser Stelle wird in jedes Neuron ein numerischer Wert eingespeist. Alle Werte im Input Layer zusammengenommen ergeben einen Vektor V.}}
 
-Abschließend erfolgt eine weitere Matrixmultiplikation des Hidden Layers und seinen Weights, um das Output Layer zu generieren. Das Output Layer gibt, wie der Name schon sagt, die Ausgangswerte der Berechnung. Bei Klassifizierungsaufgabe sind die Werte im Output Layer Warscheinlichkeiten für die jeweiligen, zu klassifizierenden Klassen. Die Anzahl der Neuronen im Output Layer ist gleich der Anzahl der Klassen
-\end{flushleft}
+\begin{figure}
+    \centering
+    \includegraphics[height= 5cm, width = 10cm]{Pictures/NN_Concept.png}
+    \caption{Beispiel eines Neuronalen Netzes: https://www.researchgate.net/figure/Artificial-neural-network-architecture-ANN-i-h-1-h-2-h-n-o_fig1_321259051}
+\end{figure}
 
-Die Formel für Feedforward:  
 
+In Abb. 2 erkennt man eine Abbildung des neuronalen Netzes. Dieses ist aufgeteilt in mehrere Schichten (layers). Das Input layer nimmt die Daten auf, welche verarbeitet werden müssen. Im hidden layer werden die Daten durch mathematische Operationen verarbeitet, um im Output layer Aussagen über die Input Daten machen zu können. Des Weiteren erkennt man, das es mehrere Knoten gibt, welche untereinander vollvermascht sind. Diese werden Neuronen genannt. 
+
+\begin{figure}
+    \centering
+    \includegraphics[height= 5cm, width = 10cm]{Pictures/Neuron.png}
+    \caption{Konzept eines Neurons: }
+\end{figure}
+
+In Abb. 3 erkennt man die Struktur eines Neurons. Diese beinhaltet mehrere Verarbeitungsschritte. Zuerst werden die Inputs des Neurons mit seinen Gewichtungen (weights) durch Multiplikation verrechnet und anschließend aufsummiert. Darauffolgend wird auf das Ergebnis eine Aktivierungsfunktion angewandt, um zu bestimmen, wie "aktiv" das Neuron ist. Es existiert eine Mehrzahl verschiedener Aktivierungsfunktionen, von denen zwei im nachfolgenden erläutert werden. Das Ergebnis ist dann der Output Wert des Neurons \hl{oder auch sein Zustand}
+Diese Verarbeitungsschritte können auch per Matrizen-Schreibweise dargestellt werden: 
+
+\begin{align}
+
+    
+          A\Bigg(
+         \begin{bmatrix}
+           w_{10}  w_{11} \\     
+           w_{20}  w_{21} \\           
+           w_{30} w_{31}
+          \end{bmatrix}
+          \begin{bmatrix}
+           x_{1} \\
+           x_{2} \\
+         \end{bmatrix}
+            \Bigg)
+          =
+          \begin{bmatrix}
+           y_{1} \\
+           y_{2} \\
+     
+           y_{3}
+         \end{bmatrix}
+         
+ 	
+          
+ \end{align}
+
+\hl{ In Abb. 2 erkennt man ein Diagram eines Neuronalen netzes. Die Kreise repräsentieren die Neuronen, die Kante stellen Verbindungen unter den Neuronen dar. Es ist zu beachten, das in diesem Model die Neuronen von einer Schicht N vollvermascht mit den Neuronen einer Schicht N+1 sind. Des Weiteren ist zu erkennen, dass der dargestellte Graph drei Schichten (engl. Layers) besitzt. Der Input Layer dient dabei als Ausgangspunkt, an dieser Stelle wird in jedes Neuron ein numerischer Wert eingespeist. Alle Werte im Input Layer zusammengenommen ergeben einen Vektor V.}
+
+Abschließend erfolgt eine weitere Matrixmultiplikation des Hidden Layers und seinen Weights, um das Output Layer zu generieren. Das Output Layer gibt, wie der Name schon sagt, die Ausgangswerte der Berechnung. Bei Klassifizierungsaufgaben sind die Werte im Output Layer Warscheinlichkeiten für die jeweiligen, zu klassifizierenden Klassen. Die Anzahl der Neuronen im Output Layer ist gleich der Anzahl der Klassen.
 
 Die Formel für die Sigmoid Funktion: 
 
@@ -44,4 +85,23 @@ Die Formel für die Sigmoid Funktion:
 s(z) = \frac{1}{1+e^{-z}}
 \end{equation}
 
-\end{flushleft}
+\begin{figure}
+    \centering
+    \includegraphics[height= 5cm, width = 10cm]{Pictures/Relu.png}
+    \caption{Rectified Linear Unit}
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    \includegraphics[height= 5cm, width = 10cm]{Pictures/Sigmoid.png}
+    \caption{Sigmoid Funktion}
+\end{figure}
+
+
+In Abb. 4 ist eine der \hl{beliebtesten} Aktivierungsfunktionen zu sehen, die ReLu Funktion. Wenn der Input der Funktion <= 0 ist, dann ist der Output immer 0. Für Werte > 0, ist der Output immer der selbe Wert 
+
+
+\[ y = \left\{ \begin{array}{ll}
+         0 & \mbox{if $x <= 0$}\\
+	        x & \mbox{if $x > 0$}\end{array} \right. \] 

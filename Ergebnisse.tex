@@ -49,5 +49,10 @@ Abb. 11 zeigt den gefilterten Stromverlauf der selben Wandler sowie der selben L
 
 In Abb. 10 ist ein Temperaturvergleich von mehreren Wandler über die Zeit dargestellt. Das offensichtlichste ist der Wandler mit der Bezeichnung "Board10", dieser hat nämlich eine über 20 Grad Celsius höhere Einschwingtemperatur. Dies ist dadurch erklärbar, dass \hl{das PWM Signal des Wandler keinen stationären Zustand erreicht}. Ein weiterer Aspekt, der sofort ersichtlich ist, ist der extreme Ausschlag beim Wandler mit der Bezeichnung "HB-C-04", bei diesem springt die Temperatur für einen kurzen Moment auf über 100 °C. Dies ist durch Fehlerhafte Sensordaten erklärbar und kann entweder nachträglich oder zur Laufzeit korrigiert werden. Eine dritte Beobachtung die gemacht werden kann, ist die, das die Wandler "HB-C-02" und "HB-C-04" relativ ähnliche Temperaturverläufe haben \hl{falls mehr Wandler verfügbar wären, könnte man die Standardabweichung und den Mittelwert präziser bestimmen}.
 
-\hl{Diese Abbildung zeigt einen der heißesten Punkte auf dem Bord, wie der Abbildung zu entnehmen ist, zeigt sich eine Temperatur von 87° C. Dies ist eine diskrepanz von 10°C zu der maximalen Temperatur, die der Sensor aufgenommen hat. Es ist offensichtlich, dass der Sensor nicht die vollen 87° C messen kann, weil er nicht in der nahen Umgebung des Hotspots ist. Im Folgenden wird versucht die Temperaturdiskrepanz durch einführen eines Offset wertes zu minimieren, um möglichst realistische Daten zu erheben.}
-\end{flushleft}
+\begin{figure}
+    \centering
+    \includegraphics[height= 4cm, width = 12cm]{Pictures/Loss.png}
+    \caption{Genauigkeit der Anwendbarkeitstests}
+\end{figure}
+
+Abb. 13 zeigt die Genauigkeit des Neuronalen Netzes in der Vorhersage der verschiedenen Frequenzen anhand der Trainingsdaten. Es ist aus dem Graphen ersichtlich, dass die Genauigkeit über 1000 Trainingsepochen ~99\% beträgt. 

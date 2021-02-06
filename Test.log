@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.22)  27 JAN 2021 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.22)  4 FEB 2021 16:34
 entering extended mode
 **./Test.tex
 (Test.tex
@@ -272,11 +272,84 @@ Overfull \hbox (12.05968pt too wide) in paragraph at lines 2--2
 /technical- 
  []
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 ...-i-h-1-h-2-h-n-o_fig1_321259051\relax }}{6}
+                                                  {}%
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...h-1-h-2-h-n-o_fig1_321259051\relax }
+                                                  
+l.3 ...-i-h-1-h-2-h-n-o_fig1_321259051\relax }}{6}
+                                                  {}%
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\@dottedtocline ...\nobreak \hskip -\leftskip {#4}
+                                                  \nobreak \leaders \hbox {$...
+l.3 ...-i-h-1-h-2-h-n-o_fig1_321259051\relax }}{6}
+                                                  {}%
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 ...-i-h-1-h-2-h-n-o_fig1_321259051\relax }}{6}
+                                                  {}%
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (94.6118pt too wide) in paragraph at lines 3--3
+ [][] []\OT1/cmr/m/n/10.95 Beispiel ei-nes Neu-ro-na-len Net-zes: https://www.r
+esearchgate.net/figure/Artificial- 
+ []
+
+
+Overfull \hbox (0.87886pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/m/n/10.95 neural-network-architecture-ANN-i-h-1-h-2-h-n-o$[]\OML/cmm/
+m/it/10.95 ig\OT1/cmr/m/n/10.95 1[]21259051 [][]$  
+ []
+
 )
 \tf@lof=\write4
 \openout4 = `Test.lof'.
 
- [2
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.15 \listoffigures
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.15 \listoffigures
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[2
 
 
 ]
@@ -288,18 +361,18 @@ Overfull \hbox (12.05968pt too wide) in paragraph at lines 2--2
 \openout2 = `Theoretischer_Hintergrund.aux'.
 
  (Theoretischer_Hintergrund.tex
-<Pictures/I2C_Bus.png, id=41, 677.53125pt x 271.0125pt>
+<Pictures/I2C_Bus.png, id=44, 677.53125pt x 271.0125pt>
 File: Pictures/I2C_Bus.png Graphic file (type png)
 <use Pictures/I2C_Bus.png>
-Package pdftex.def Info: Pictures/I2C_Bus.png  used on input line 11.
+Package pdftex.def Info: Pictures/I2C_Bus.png  used on input line 12.
 (pdftex.def)             Requested size: 284.53017pt x 142.26714pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
 []\OT1/cmr/m/n/10.95 Abbildung 1: |I2C Bus Bei-spiel Quel-le:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
 \OT1/cmr/m/n/10.95 https://www.analog.com/en/technical-articles/i2c-primer-what
 -is-i2c-
  []
@@ -309,15 +382,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
 
  <./Pictures/I2C_Bus.png>]
-! You can't use `macro parameter character #' in horizontal mode.
-l.21 ...Tests wurde Windows 10 als Platform und C#
-                                                   als Programmiersprache ge...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-[5]
 
 ! LaTeX Error: \begin{document} ended by \end{flushleft}.
 
@@ -325,7 +389,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \end{flushleft}
+l.17 \end{flushleft}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -334,22 +398,398 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.47 \end{flushleft}
+l.17 \end{flushleft}
                     
 Things are pretty mixed up, but I think the worst is over.
 
-) [6]
+! You can't use `macro parameter character #' in horizontal mode.
+l.21 ...Tests wurde Windows 10 als Platform und C#
+                                                   als Programmiersprache ge...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{flushleft}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \end{flushleft}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.25 \end{flushleft}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
+<Pictures/NN_Concept.png, id=51, 853.1875pt x 499.8675pt>
+File: Pictures/NN_Concept.png Graphic file (type png)
+<use Pictures/NN_Concept.png>
+Package pdftex.def Info: Pictures/NN_Concept.png  used on input line 35.
+(pdftex.def)             Requested size: 284.534pt x 142.2654pt.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...ecture-ANN-i-h-1-h-2-h-n-o_fig1_321259051}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...ecture-ANN-i-h-1-h-2-h-n-o_fig1_321259051}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...ecture-ANN-i-h-1-h-2-h-n-o_fig1_321259051}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...ecture-ANN-i-h-1-h-2-h-n-o_fig1_321259051}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]\OT1/cmr/m/n/10.95 Abbildung 2: |Bei-spiel ei-nes Neu-ro-na-len Net-zes:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\OT1/cmr/m/n/10.95 https://www.researchgate.net/figure/Artificial-neural-networ
+k-
+ []
+
+<Pictures/Neuron.png, id=52, 530.73282pt x 166.37157pt>
+File: Pictures/Neuron.png Graphic file (type png)
+<use Pictures/Neuron.png>
+Package pdftex.def Info: Pictures/Neuron.png  used on input line 44.
+(pdftex.def)             Requested size: 284.52638pt x 142.27199pt.
+[5]
+Runaway argument?
+ 
+! Paragraph ended before \align was complete.
+<to be read again> 
+                   \par 
+l.52 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.52 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.52 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.52 
+     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.55          \begin{bmatrix}
+                             
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.59           \end{bmatrix}
+                            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60           \begin{bmatrix}
+                              
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.63          \end{bmatrix}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.66           \begin{bmatrix}
+                              
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.71          \end{bmatrix}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \cr.
+\math@cr@@@ ->\cr 
+                  
+l.75  \end{align}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
+                                                  {\vskip #1\relax }
+l.75  \end{align}
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \noalign.
+\black@ #1->\noalign 
+                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
+l.75  \end{align}
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra }, or forgotten \endgroup.
+\endalign ->\math@cr \black@ \totwidth@ \egroup 
+                                                \ifingather@ \restorealignst...
+l.75  \end{align}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.75  \end{align}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.75  \end{align}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+[6 <./Pictures/NN_Concept.png> <./Pictures/Neuron.png>]
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.77 ... zusammengenommen ergeben einen Vektor V.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.77 ... zusammengenommen ergeben einen Vektor V.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.77 ... zusammengenommen ergeben einen Vektor V.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.77 ... zusammengenommen ergeben einen Vektor V.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.77 ... zusammengenommen ergeben einen Vektor V.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.77 ... zusammengenommen ergeben einen Vektor V.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 ... zusammengenommen ergeben einen Vektor V.}
+                                                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.77 ... zusammengenommen ergeben einen Vektor V.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 ... zusammengenommen ergeben einen Vektor V.}
+                                                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 ... zusammengenommen ergeben einen Vektor V.}
+                                                  
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+Overfull \hbox (0.55669pt too wide) in paragraph at lines 79--80
+[]\OT1/cmr/m/n/10.95 Abschlieend er-folgt ei-ne wei-te-re Ma-trix-mul-ti-pli-k
+a-ti-on des Hid-den Layers
+ []
+
+<Pictures/Relu.png, id=62, 462.528pt x 346.896pt>
+File: Pictures/Relu.png Graphic file (type png)
+<use Pictures/Relu.png>
+Package pdftex.def Info: Pictures/Relu.png  used on input line 90.
+(pdftex.def)             Requested size: 284.54124pt x 142.26532pt.
+<Pictures/Sigmoid.png, id=63, 462.528pt x 346.896pt>
+File: Pictures/Sigmoid.png Graphic file (type png)
+<use Pictures/Sigmoid.png>
+Package pdftex.def Info: Pictures/Sigmoid.png  used on input line 97.
+(pdftex.def)             Requested size: 284.54124pt x 142.26532pt.
+) [0 <./Pictures/Relu.png>] [1 <./Pictures/Sigmoid.png>]
 \openout2 = `Methodik.aux'.
 
  (Methodik.tex
-<Pictures/Dyn_Schaltung.jpg, id=57, 657.45625pt x 613.29124pt>
+Overfull \hbox (4.88599pt too wide) in paragraph at lines 4--6
+\OT1/cmr/m/n/10.95 ler un-ter ei-ner kon-stan-ten Last zu []uberpr[]ufen. Es wu
+r-den zwei sim-ple Testf[]alle
+ []
+
+<Pictures/Dyn_Schaltung.jpg, id=74, 657.45625pt x 613.29124pt>
 File: Pictures/Dyn_Schaltung.jpg Graphic file (type jpg)
 <use Pictures/Dyn_Schaltung.jpg>
-Package pdftex.def Info: Pictures/Dyn_Schaltung.jpg  used on input line 13.
+Package pdftex.def Info: Pictures/Dyn_Schaltung.jpg  used on input line 11.
 (pdftex.def)             Requested size: 341.43782pt x 113.80334pt.
-
 ! Undefined control sequence.
-l.20 \frac{U}{R} = I \tab
+l.18 \frac{U}{R} = I \tab
                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -357,312 +797,52 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[7
+[2
 
 
 
  <./Pictures/Dyn_Schaltung.jpg>]
-<Pictures/Sinus_Aud.png, id=63, 472.01344pt x 107.65219pt>
+Overfull \hbox (4.90942pt too wide) in paragraph at lines 36--37
+[]\OT1/cmr/m/n/10.95 Das Mes-sen der Da-ten er-folgt eben-falls per I\TS1/cmr/m
+/n/10.95 �\OT1/cmr/m/n/10.95 C, je-doch auf ei-nem Raspber-
+ []
+
+<Pictures/Sinus_Aud.png, id=79, 472.01344pt x 107.65219pt>
 File: Pictures/Sinus_Aud.png Graphic file (type png)
 <use Pictures/Sinus_Aud.png>
-Package pdftex.def Info: Pictures/Sinus_Aud.png  used on input line 45.
+Package pdftex.def Info: Pictures/Sinus_Aud.png  used on input line 43.
 (pdftex.def)             Requested size: 341.44113pt x 113.81345pt.
-<Pictures/Clapped_Sine.png, id=64, 420.06938pt x 312.41719pt>
+<Pictures/Clapped_Sine.png, id=80, 420.06938pt x 312.41719pt>
 File: Pictures/Clapped_Sine.png Graphic file (type png)
 <use Pictures/Clapped_Sine.png>
-Package pdftex.def Info: Pictures/Clapped_Sine.png  used on input line 51.
+Package pdftex.def Info: Pictures/Clapped_Sine.png  used on input line 49.
 (pdftex.def)             Requested size: 341.43373pt x 113.80965pt.
-<Pictures/TatsDaten.png, id=65, 925.20656pt x 322.20375pt>
+<Pictures/TatsDaten.png, id=81, 925.20656pt x 322.20375pt>
 File: Pictures/TatsDaten.png Graphic file (type png)
 <use Pictures/TatsDaten.png>
-Package pdftex.def Info: Pictures/TatsDaten.png  used on input line 57.
+Package pdftex.def Info: Pictures/TatsDaten.png  used on input line 55.
 (pdftex.def)             Requested size: 341.43166pt x 113.81036pt.
- [8 <./Pictures/Sinus_Aud.png> <./Pictures/Clapped_Sine.png>]
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-! Missing { inserted.
-<to be read again> 
-                   }
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! Package soul Error: Reconstruction failed.
-
-See the soul package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I came across hyphenatable material enclosed in group braces,
-which I can't handle. Either drop the braces or make the material
-unbreakable using an \mbox (\hbox). Note that a space
-also counts as possible hyphenation point. See page 4 of the manual.
-I'm leaving a black square so that you can see where I am right now.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-! Missing { inserted.
-<to be read again> 
-                   }
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! Package soul Error: Reconstruction failed.
-
-See the soul package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...00145 s für alle, 1/ 0,00145 = 689 Hz...}
-                                                  
-I came across hyphenatable material enclosed in group braces,
-which I can't handle. Either drop the braces or make the material
-unbreakable using an \mbox (\hbox). Note that a space
-also counts as possible hyphenation point. See page 4 of the manual.
-I'm leaving a black square so that you can see where I am right now.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.78 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.78 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (3.20708pt too wide) in paragraph at lines 81--82
+[3 <./Pictures/Sinus_Aud.png> <./Pictures/Clapped_Sine.png>]
+Overfull \hbox (3.20708pt too wide) in paragraph at lines 73--74
 \OT1/cmr/m/n/10.95 Das Ziel des Echt-zeit-mo-ni-to-ring ist es, in lau-fen-den 
 Be-trieb Aus-sa-gen dar[]uber
  []
 
-[9 <./Pictures/TatsDaten.png>]) [10]
+[4 <./Pictures/TatsDaten.png>]) [5]
 \openout2 = `Ergebnisse.aux'.
 
  (Ergebnisse.tex
-<Pictures/B1_3P_IOUT.png, id=79, 499.8675pt x 259.7203pt>
+<Pictures/B1_3P_IOUT.png, id=94, 499.8675pt x 259.7203pt>
 File: Pictures/B1_3P_IOUT.png Graphic file (type png)
 <use Pictures/B1_3P_IOUT.png>
 Package pdftex.def Info: Pictures/B1_3P_IOUT.png  used on input line 9.
 (pdftex.def)             Requested size: 341.44612pt x 170.71448pt.
-<Pictures/B1_3P_TEMP.png, id=80, 484.81125pt x 274.77657pt>
+<Pictures/B1_3P_TEMP.png, id=95, 484.81125pt x 274.77657pt>
 File: Pictures/B1_3P_TEMP.png Graphic file (type png)
 <use Pictures/B1_3P_TEMP.png>
 Package pdftex.def Info: Pictures/B1_3P_TEMP.png  used on input line 16.
 (pdftex.def)             Requested size: 341.45168pt x 170.72028pt.
-<Pictures/B1_P3_IOUT_Rauschen.png, id=81, 507.39563pt x 261.97874pt>
+<Pictures/B1_P3_IOUT_Rauschen.png, id=96, 507.39563pt x 261.97874pt>
 File: Pictures/B1_P3_IOUT_Rauschen.png Graphic file (type png)
 <use Pictures/B1_P3_IOUT_Rauschen.png>
 Package pdftex.def Info: Pictures/B1_P3_IOUT_Rauschen.png  used on input line 2
@@ -809,12 +989,12 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<Pictures/3_Boards_Temp.png, id=87, 462.528pt x 346.896pt>
+<Pictures/3_Boards_Temp.png, id=103, 462.528pt x 346.896pt>
 File: Pictures/3_Boards_Temp.png Graphic file (type png)
 <use Pictures/3_Boards_Temp.png>
 Package pdftex.def Info: Pictures/3_Boards_Temp.png  used on input line 33.
 (pdftex.def)             Requested size: 341.44667pt x 170.71628pt.
-<Pictures/Comp_IOUT.png, id=88, 462.528pt x 346.896pt>
+<Pictures/Comp_IOUT.png, id=104, 462.528pt x 346.896pt>
 File: Pictures/Comp_IOUT.png Graphic file (type png)
 <use Pictures/Comp_IOUT.png>
 Package pdftex.def Info: Pictures/Comp_IOUT.png  used on input line 40.
@@ -1912,899 +2092,12 @@ unbreakable using an \mbox (\hbox). Note that a space
 also counts as possible hyphenation point. See page 4 of the manual.
 I'm leaving a black square so that you can see where I am right now.
 
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-! Missing { inserted.
-<to be read again> 
-                   }
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-! Missing { inserted.
-<to be read again> 
-                   }
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! Package soul Error: Reconstruction failed.
-
-See the soul package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I came across hyphenatable material enclosed in group braces,
-which I can't handle. Either drop the braces or make the material
-unbreakable using an \mbox (\hbox). Note that a space
-also counts as possible hyphenation point. See page 4 of the manual.
-I'm leaving a black square so that you can see where I am right now.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-! Missing { inserted.
-<to be read again> 
-                   }
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! Package soul Error: Reconstruction failed.
-
-See the soul package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I came across hyphenatable material enclosed in group braces,
-which I can't handle. Either drop the braces or make the material
-unbreakable using an \mbox (\hbox). Note that a space
-also counts as possible hyphenation point. See page 4 of the manual.
-I'm leaving a black square so that you can see where I am right now.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-! Missing { inserted.
-<to be read again> 
-                   }
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! Package soul Error: Reconstruction failed.
-
-See the soul package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I came across hyphenatable material enclosed in group braces,
-which I can't handle. Either drop the braces or make the material
-unbreakable using an \mbox (\hbox). Note that a space
-also counts as possible hyphenation point. See page 4 of the manual.
-I'm leaving a black square so that you can see where I am right now.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-! Missing { inserted.
-<to be read again> 
-                   }
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! Package soul Error: Reconstruction failed.
-
-See the soul package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I came across hyphenatable material enclosed in group braces,
-which I can't handle. Either drop the braces or make the material
-unbreakable using an \mbox (\hbox). Note that a space
-also counts as possible hyphenation point. See page 4 of the manual.
-I'm leaving a black square so that you can see where I am right now.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \UTFviii@two@octets@combine has an extra }.
-<inserted text> 
-                \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \UTFviii@two@octets@combine was complete.
-<to be read again> 
-                   \par 
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-! Missing { inserted.
-<to be read again> 
-                   }
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! Package soul Error: Reconstruction failed.
-
-See the soul package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...möglichst realistische Daten zu erheben.}
-                                                  
-I came across hyphenatable material enclosed in group braces,
-which I can't handle. Either drop the braces or make the material
-unbreakable using an \mbox (\hbox). Note that a space
-also counts as possible hyphenation point. See page 4 of the manual.
-I'm leaving a black square so that you can see where I am right now.
-
-[0 <./Pictures/Comp_IOUT.png>]
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.53 \end{flushleft}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-) [1]
+<Pictures/Loss.png, id=110, 433.62pt x 289.08pt>
+File: Pictures/Loss.png Graphic file (type png)
+<use Pictures/Loss.png>
+Package pdftex.def Info: Pictures/Loss.png  used on input line 54.
+(pdftex.def)             Requested size: 341.4511pt x 113.8082pt.
+) [0 <./Pictures/Comp_IOUT.png>] [1 <./Pictures/Loss.png>]
 \openout2 = `Fazit.aux'.
 
 
@@ -2818,31 +2111,59 @@ No file Fazit.tex.
 
 
 
-] (Test.aux (Titelseite.aux) (Einleitung.aux)
-(Theoretischer_Hintergrund.aux) (Methodik.aux) (Ergebnisse.aux) (Fazit.aux)
-(Literaturverzeichnis.aux))
+]
+
+! LaTeX Error: \begin{flushleft} on input line 44 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(Test.aux (Titelseite.aux) (Einleitung.aux) (Theoretischer_Hintergrund.aux)
+(Methodik.aux) (Ergebnisse.aux) (Fazit.aux) (Literaturverzeichnis.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
- ) 
+ )
+(\end occurred inside a group at level 11)
+
+### simple group (level 11) entered at line 50 ({)
+### simple group (level 10) entered at line 50 ({)
+### simple group (level 9) entered at line 50 ({)
+### simple group (level 8) entered at line 50 ({)
+### simple group (level 7) entered at line 50 ({)
+### simple group (level 6) entered at line 48 ({)
+### simple group (level 5) entered at line 48 ({)
+### simple group (level 4) entered at line 48 ({)
+### simple group (level 3) entered at line 48 ({)
+### semi simple group (level 2) entered at line 44 (\begingroup)
+### simple group (level 1) entered at line 77 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 4362 strings out of 479697
- 67675 string characters out of 2884124
- 394996 words of memory out of 3000000
- 21361 multiletter control sequences out of 15000+200000
+ 4391 strings out of 479697
+ 68309 string characters out of 2884124
+ 386996 words of memory out of 3000000
+ 21385 multiletter control sequences out of 15000+200000
  410496 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,6n,74p,1454b,1170s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\lamer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1095.pk><E:/Latex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Latex/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/Latex/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-<E:/Latex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><E:/Latex/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Test.pdf (15 pages, 652427 bytes).
+ 66i,8n,74p,1454b,981s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\lamer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\tcrm1095.pk><E:/Latex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/L
+atex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Latex/fonts/type1/public/ams
+fonts/cm/cmex10.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Lat
+ex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/Latex/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/Latex/fon
+ts/type1/public/amsfonts/cm/cmssbx10.pfb><E:/Latex/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Test.pdf (17 pages, 791013 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 159 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
