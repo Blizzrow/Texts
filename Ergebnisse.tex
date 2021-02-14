@@ -49,5 +49,24 @@ Abb. 11 zeigt den gefilterten Stromverlauf der selben Wandler sowie der selben L
 
 In Abb. 10 ist ein Temperaturvergleich von mehreren Wandler über die Zeit dargestellt. Das offensichtlichste ist der Wandler mit der Bezeichnung "Board10", dieser hat nämlich eine über 20 Grad Celsius höhere Einschwingtemperatur. Dies ist dadurch erklärbar, dass \hl{das PWM Signal des Wandler keinen stationären Zustand erreicht}. Ein weiterer Aspekt, der sofort ersichtlich ist, ist der extreme Ausschlag beim Wandler mit der Bezeichnung "HB-C-04", bei diesem springt die Temperatur für einen kurzen Moment auf über 100 °C. Dies ist durch Fehlerhafte Sensordaten erklärbar und kann entweder nachträglich oder zur Laufzeit korrigiert werden. Eine dritte Beobachtung die gemacht werden kann, ist die, das die Wandler "HB-C-02" und "HB-C-04" relativ ähnliche Temperaturverläufe haben \hl{falls mehr Wandler verfügbar wären, könnte man die Standardabweichung und den Mittelwert präziser bestimmen}.
 
-\hl{Diese Abbildung zeigt einen der heißesten Punkte auf dem Bord, wie der Abbildung zu entnehmen ist, zeigt sich eine Temperatur von 87° C. Dies ist eine diskrepanz von 10°C zu der maximalen Temperatur, die der Sensor aufgenommen hat. Es ist offensichtlich, dass der Sensor nicht die vollen 87° C messen kann, weil er nicht in der nahen Umgebung des Hotspots ist. Im Folgenden wird versucht die Temperaturdiskrepanz durch einführen eines Offset wertes zu minimieren, um möglichst realistische Daten zu erheben.}
-\end{flushleft}
+Zur dynamischen Datenerfassung ist zu sagen, dass das I²C Protokoll sich limitierend darauf ausgewirkt hat. Dadurch, dass stabile Programmausführung nur bei einer I²C Taktrate von 70 KHz gewährleistet war, war die Konsequenz daraus, dass die Abtastrate ebenfalls reduziert wurde. Die Ermittlung der Abtastrate erfolgte durch Messungen mehrerer Wandler, die mit verschiedenen Signalen gespeist wurden.Wie in Abb. 13 zu erkennen ist, wurden zwei verschiedene Wandler mit jeweils 6 verschiedenen Signalen verwendet. Zur Bestimmung der jeweiligen Abtastrate wurde zu durch Zeitstempel das Zeitdelta bestimmt, d. h. der Zeitraum in dem die Messungen durchgeführt wurden. Anschließend wurde die Anzahl der aufgenommenen Samples durch das Zeitdelta geteilt, um so auf die durchschnittliche Abtastrate zu kommen. Darauffolgend wurde der Mittelwert von allen Wandler-Signal Paaren berechnet, welcher ~110 Hz beträgt. Wenn auf dieses Ergebnis die oben genannten Konzepte der Nyquist Frequenz angewendet werden, so zeigt sich, dass die maximale Signalfrequenz, welche ohne Verzerrungen durch den Wandler abgetastet werden kann, bei 55 Hz liegt. Aus diesem Grund wurden im nachfolgenden Test mit einem Neuronalen Netz nur Signalfrequenzen verwendet, welche einen geringere Frequenz als 55 Hz besitzen. 
+
+\begin{figure}
+
+
+\end{figure}
+
+    \centering
+ \includegraphics[height= 6cm, width =4 cm]{Pictures/Speed.png}
+    \caption{Berechnung der Abtastrate}
+
+\begin{figure}
+    \centering
+    \includegraphics[height= 4cm, width = 12cm]{Pictures/Loss.png}
+    \caption{Genauigkeit der Anwendbarkeitstests}
+\end{figure}
+
+Als Architektur des Neuronalen Netzes wurde ein Netz mit einem Input layer, zwei Hidden layern, sowie einem Output layer gewählt. Als Aktivierungsfunktion der Neuronen wurde ReLu ausgewählt, die Output Neuronen werden durch die softmax Funktion Aktiviert. Der verwendete Optimierungsalgorithmus ist Gradient Descent. Als Input Daten wurden 50 Samples des zeitlichen Leistungsverlaufs eines Signals verwendet. Die Ausgabe des Neuronalen Netzes ist eine Klassifizierung, um was für eine Signalfrequenz es sich bei den Input Daten handelt. 
+
+
+Abb. 13 zeigt die Genauigkeit des Neuronalen Netzes in der Vorhersage der verschiedenen Frequenzen anhand der Trainingsdaten. Es ist aus dem Graphen ersichtlich, dass die Genauigkeit über 1000 Trainingsepochen ~99\% beträgt. 

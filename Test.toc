@@ -1,16 +1,14 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Einleitung}{3}{}%
-\contentsline {section}{\numberline {2}Theoretischer Hintergrund}{4}{}%
-\contentsline {subsection}{\numberline {2.1}Hybrid-Buck-Wandler}{4}{}%
-\contentsline {subsection}{\numberline {2.2}I2C}{4}{}%
-\contentsline {subsection}{\numberline {2.3}Verwendeten Platformen, Programmiersprachen und Bibliotheken}{5}{}%
-\contentsline {subsection}{\numberline {2.4}Neuronale Netze}{5}{}%
-\contentsline {section}{\numberline {3}Methodik}{7}{}%
-\contentsline {subsection}{\numberline {3.1}Statische Datenerfassung}{7}{}%
-\contentsline {subsection}{\numberline {3.2}Dynamische Datenerfassung}{7}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}Echtzeitmonitoring}{1}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}Laufzeitmonitoring}{1}{}%
-\contentsline {subsubsection}{\numberline {3.2.3}Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}{1}{}%
-\contentsline {subsection}{\numberline {3.3}Simple Testfälle im Bereich Machine learning}{1}{}%
-\contentsline {section}{\numberline {4}Ergebnisse}{0}{}%
-\contentsline {section}{\numberline {5}Literaturverzeichnis}{2}{}%
+\contentsline {section}{\numberline {1}Einleitung}{3}%
+\contentsline {section}{\numberline {2}Theoretischer Hintergrund}{4}%
+\contentsline {subsection}{\numberline {2.1}Hybrid-Buck-Wandler}{4}%
+\contentsline {subsection}{\numberline {2.2}I2C}{4}%
+\contentsline {subsection}{\numberline {2.3}Neuronale Netze}{5}%
+\contentsline {subsection}{\numberline {2.4}Verwendeten Platformen, Programmiersprachen und Bibliotheken}{7}%
+\contentsline {section}{\numberline {3}Methodik}{9}%
+\contentsline {subsection}{\numberline {3.1}Statische Datenerfassung}{9}%
+\contentsline {subsection}{\numberline {3.2}Dynamische Datenerfassung}{9}%
+\contentsline {subsubsection}{\numberline {3.2.1}Echtzeitmonitoring}{11}%
+\contentsline {subsubsection}{\numberline {3.2.2}Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}{11}%
+\contentsline {section}{\numberline {4}Ergebnisse}{0}%
+\contentsline {section}{\numberline {5}Literaturverzeichnis}{3}%
