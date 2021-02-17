@@ -1,18 +1,19 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Einleitung}{4}{}%
-\contentsline {section}{\numberline {2}Theoretischer Hintergrund}{5}{}%
-\contentsline {subsection}{\numberline {2.1}Hybrid-Buck-Wandler}{5}{}%
-\contentsline {subsection}{\numberline {2.2}I2C}{5}{}%
-\contentsline {subsection}{\numberline {2.3}Neuronale Netze}{6}{}%
-\contentsline {subsection}{\numberline {2.4}Verwendeten Platformen, Programmiersprachen und Bibliotheken}{9}{}%
-\contentsline {section}{\numberline {3}Methodik}{10}{}%
-\contentsline {subsection}{\numberline {3.1}Statische Datenerfassung}{10}{}%
-\contentsline {subsection}{\numberline {3.2}Dynamische Datenerfassung}{10}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}Echtzeitmonitoring}{12}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}{12}{}%
-\contentsline {subsection}{\numberline {3.3}Anwendbarkeitstest - Neuronales Netz}{12}{}%
-\contentsline {section}{\numberline {4}Ergebnisse}{0}{}%
-\contentsline {subsection}{\numberline {4.1}Ergebnisse der statischen Tests}{0}{}%
-\contentsline {subsection}{\numberline {4.2}Ergebnisse der dynamischen Tests}{2}{}%
-\contentsline {subsection}{\numberline {4.3}Ergebnis des Anwendbarkeitstest - Neuronales Netz}{4}{}%
-\contentsline {section}{\numberline {5}Literaturverzeichnis}{6}{}%
+\contentsline {section}{\numberline {1}Einleitung}{4}%
+\contentsline {section}{\numberline {2}Theoretischer Hintergrund}{5}%
+\contentsline {subsection}{\numberline {2.1}Hybrid-Buck-Wandler}{5}%
+\contentsline {subsection}{\numberline {2.2}I2C}{5}%
+\contentsline {subsection}{\numberline {2.3}Neuronale Netze}{6}%
+\contentsline {subsection}{\numberline {2.4}Verwendeten Platformen, Programmiersprachen und Bibliotheken}{9}%
+\contentsline {section}{\numberline {3}Methodik}{10}%
+\contentsline {subsection}{\numberline {3.1}Statische Datenerfassung}{10}%
+\contentsline {subsection}{\numberline {3.2}Dynamische Datenerfassung}{10}%
+\contentsline {subsubsection}{\numberline {3.2.1}Echtzeitmonitoring}{11}%
+\contentsline {subsubsection}{\numberline {3.2.2}Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}{0}%
+\contentsline {subsection}{\numberline {3.3}Anwendbarkeitstest - Neuronales Netz}{0}%
+\contentsline {section}{\numberline {4}Ergebnisse}{0}%
+\contentsline {subsection}{\numberline {4.1}Ergebnisse der statischen Tests}{0}%
+\contentsline {subsection}{\numberline {4.2}Ergebnisse der dynamischen Tests}{2}%
+\contentsline {subsection}{\numberline {4.3}Ergebnis des Anwendbarkeitstest - Neuronales Netz}{4}%
+\contentsline {section}{\numberline {5}Fazit und Ausblick}{6}%
+\contentsline {section}{\numberline {6}Literaturverzeichnis}{7}%

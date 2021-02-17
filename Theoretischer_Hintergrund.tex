@@ -112,10 +112,10 @@ In Abb. 5 ist die Sigmoid Funktion zu erkennen, diese lässt sowohl positive als
     \caption{Sigmoid Funktion}
 \end{figure}
 
+Der zweite, wichtig Algorithmus für ein Neuronales Netz ist der Backpropagation Algorithmus. Dieser sorgt dafür, dass die vorher erwähnten Gewichtungen an die Input-Output Datenpaare angepasst werden, sodass später korrekte Vorhersagen allein durch die Input Daten gemacht werden können. Für diesen Algorithmus muss eine neue Funktion eingeführt werden: Die Verlustfunktion. Die Verlustfunktion ist eine Funktion in Abhängigkeit der Gewichtungen und sie berechnet den Fehler von den vorhergesagten Daten und den tatsächlichen Daten.
 
 	        
 \subsection{Verwendeten Platformen, Programmiersprachen und Bibliotheken}
-
-Da sich herausgestellt hat, dass ein PicKit eine zu geringe Abtastrate ermöglicht, wurde für die dynamischen Tests ein Raspberry Pi 4 (4 GB RAM) mit der Programmiersprache Python für Datenerfassung- und Verarbeitung verwendet. Des Weiteren wurde für das Erstellen von Neuronalen Netzen die library "Tensorflow" verwendet, wobei Keras als High-Level API dient. Die graphische Visualisierung der Daten erfolgt ausschließlich per Pyplot library.
+Zur Datenerhebung per I²C wurde in erster Instanz ein PICkit Serial Analyzer verwendet. Es stellte sich jedoch heraus, dass die Datenrate bei diesem zu gering war, um effektiv Daten zu erheben. Aus diesem Grund wurde für die dynamischen Tests ein Raspberry Pi 4 (4 GB RAM) mit der Programmiersprache Python für Datenerfassung- und Verarbeitung verwendet. Des Weiteren wurde für das Erstellen von Neuronalen Netzen die library "Tensorflow" verwendet, wobei Keras als High-Level API dient. Die graphische Visualisierung der Daten erfolgt ausschließlich per Pyplot library.
 
 \end{flushleft}

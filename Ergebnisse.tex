@@ -94,7 +94,8 @@ In Abb. 6 ist der ungefilterte Leistungsverlauf des Wandler dargestellt. Es ist 
 
 \subsection{Ergebnis des Anwendbarkeitstest - Neuronales Netz}
 
-Als Architektur des Neuronalen Netzes wurde ein Netz mit einem Input layer, zwei Hidden layern, sowie einem Output layer gewählt. Als Aktivierungsfunktion der Neuronen wurde ReLu ausgewählt, die Output Neuronen werden durch die softmax Funktion Aktiviert. Der verwendete Optimierungsalgorithmus ist Gradient Descent. Als Input Daten wurden 50 Samples des zeitlichen Leistungsverlaufs eines Signals verwendet. Die Ausgabe des Neuronalen Netzes ist eine Klassifizierung, um was für eine Signalfrequenz es sich bei den Input Daten handelt. 
+Als Architektur des Neuronalen Netzes wurde ein Netz mit einem Input layer, zwei Hidden layern, sowie einem Output layer gewählt. Das Input layer hat eine Größe von 50 Neuronen, das bedeutet, dass in einem Datensatz 50 Samples enthalten sind. Die Anzahl der Hidden layer sowie deren Neuronen-Anzahl wurden durch \hl{empirische Tests bestimmt.} Die Anzahl der Output Neuronen entspricht der Anzahl der möglichen Klassifizierungen, in diesem Fall 3 verschiedene Frequenzen: 10 Hz, 20 Hz, 30 Hz. 
+Als Aktivierungsfunktion für alle Neuronen, außer die Output Neuronen, wurde ReLu ausgewählt. Der verwendete Optimierungsalgorithmus ist Gradient Descent mit Cross Entropy als Loss-Function.
 
 
 Abb. 13 zeigt die Genauigkeit des Neuronalen Netzes in der Vorhersage der verschiedenen Frequenzen anhand der Trainingsdaten. Es ist aus dem Graphen ersichtlich, dass die Genauigkeit über 1000 Trainingsepochen ~99\% beträgt. 

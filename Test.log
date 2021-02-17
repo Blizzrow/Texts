@@ -1,55 +1,59 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.22)  15 FEB 2021 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.22)  16 FEB 2021 09:40
 entering extended mode
 **./Test.tex
 (Test.tex
-LaTeX2e <2020-10-01> patch level 2
-L3 programming layer <2020-12-07> xparse <2020-03-03>
-(E:\Latex\tex/latex/base\article.cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(E:\Latex\tex/latex/base\size11.clo
-File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-09-03>
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count177
-\c@section=\count178
-\c@subsection=\count179
-\c@subsubsection=\count180
-\c@paragraph=\count181
-\c@subparagraph=\count182
-\c@figure=\count183
-\c@table=\count184
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen138
-) (E:\Latex\tex/latex/base\inputenc.sty
-Package: inputenc 2020/08/01 v1.3d Input encoding file
+\bibindent=\dimen134
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 )
-(E:\Latex\tex/generic/babel\babel.sty
-Package: babel 2020/10/27 3.51 The Babel package
- (E:\Latex\tex/generic/babel\babel.def
-File: babel.def 2020/10/27 3.51 Babel common definitions
-\babel@savecnt=\count185
-\U@D=\dimen139
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/09/01 3.48 The Babel package
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/09/01 3.48 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
 \l@babelnohyphens=\language79
 
-(E:\Latex\tex/generic/babel\txtbabel.def)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count186
+\bbl@dirlevel=\count177
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(E:\Latex\tex/latex/arabi\bblopts.cfg
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(E:\Latex\tex/latex/babel-german\ngerman.ldf
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
+f
 Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
 phy)
 
-(E:\Latex\tex/latex/babel-german\ngermanb.ldf
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
+df
 Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
 aphy)
 Package babel Info: Making " an active character on input line 121.
@@ -72,84 +76,88 @@ Adding the global options:
 to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
-(E:\Latex\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(E:\Latex\tex/latex/graphics\keyval.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(E:\Latex\tex/latex/graphics\graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
- (E:\Latex\tex/latex/graphics\trig.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (E:\Latex\tex/latex/graphics-cfg\graphics.cfg
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(E:\Latex\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen140
-\Gin@req@width=\dimen141
-)
-(E:\Latex\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+) (C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip49
-
 For additional information on amsmath, use the `?' option.
-(E:\Latex\tex/latex/amsmath\amstext.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (E:\Latex\tex/latex/amsmath\amsgen.sty
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen142
-)) (E:\Latex\tex/latex/amsmath\amsbsy.sty
+\ex@=\dimen138
+))
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen143
+\pmbraise@=\dimen139
 )
-(E:\Latex\tex/latex/amsmath\amsopn.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count187
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count188
-\leftroot@=\count189
-LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count190
-\DOTSCASE@=\count191
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box47
-\strutbox@=\box48
-\big@size=\dimen144
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count192
-\c@MaxMatrixCols=\count193
+\inf@bad=\count178
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count179
+\leftroot@=\count180
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count181
+\DOTSCASE@=\count182
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count183
+\c@MaxMatrixCols=\count184
 \dotsspace@=\muskip16
-\c@parentequation=\count194
-\dspbrk@lvl=\count195
+\c@parentequation=\count185
+\dspbrk@lvl=\count186
 \tag@help=\toks19
-\row@=\count196
-\column@=\count197
-\maxfields@=\count198
+\row@=\count187
+\column@=\count188
+\maxfields@=\count189
 \andhelp@=\toks20
-\eqnshift@=\dimen145
-\alignsep@=\dimen146
-\tagshift@=\dimen147
-\tagwidth@=\dimen148
-\totwidth@=\dimen149
-\lineht@=\dimen150
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
 \@envbody=\toks21
 \multlinegap=\skip50
 \multlinetaggap=\skip51
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
-) (E:\Latex\tex/latex/base\fixltx2e.sty
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/base\fixltx2e.sty
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
 Applying: [2015/01/01] Old fixltx2e package on input line 46.
 
@@ -159,15 +167,14 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (fixltx2e)                See the latexrelease package for details.
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
-) (E:\Latex\tex/latex/graphics\color.sty
-Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+) (C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-(E:\Latex\tex/latex/graphics-cfg\color.cfg
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-)
-(E:\Latex\tex/generic/soul\soul.sty
+) (C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks23
 \SOUL@lasttoken=\toks24
@@ -175,43 +182,47 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@buffer=\toks26
 \SOUL@token=\toks27
 \SOUL@spaceskip=\skip52
-\SOUL@ttwidth=\dimen151
-\SOUL@uldp=\dimen152
-\SOUL@ulht=\dimen153
-) (E:\Latex\tex/latex/caption\subcaption.sty
+\SOUL@ttwidth=\dimen147
+\SOUL@uldp=\dimen148
+\SOUL@ulht=\dimen149
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-(E:\Latex\tex/latex/caption\caption.sty
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-(E:\Latex\tex/latex/caption\caption3.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen154
-\captionmargin@=\dimen155
-\captionwidth=\dimen156
-\caption@tempdima=\dimen157
-\caption@indent=\dimen158
-\caption@parindent=\dimen159
-\caption@hangindent=\dimen160
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count199
-\c@continuedfloat=\count266
+\c@caption@flags=\count190
+\c@continuedfloat=\count191
 )
-\c@subfigure=\count267
-\c@subtable=\count268
-) (E:\Latex\tex/latex/float\float.sty
+\c@subfigure=\count192
+\c@subtable=\count193
+) (C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count269
+\c@float@type=\count194
 \float@exts=\toks28
-\float@box=\box49
+\float@box=\box47
 \@float@everytoks=\toks29
-\@floatcapt=\box50
-) (E:\Latex\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count270
-\l__pdf_internal_box=\box51
-) (Test.aux (Titelseite.aux) (Einleitung.aux) (Theoretischer_Hintergrund.aux) (
-Methodik.aux
+\@floatcapt=\box48
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count195
+\l__pdf_internal_box=\box49
+) (Test.aux (Titelseite.aux) (Einleitung.aux)
+(Theoretischer_Hintergrund.aux) (Methodik.aux
 
 LaTeX Warning: Label `Ohmsches Gesetz' multiply defined.
 
@@ -240,20 +251,23 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 
-(E:\Latex\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count271
-\scratchdimen=\dimen161
-\scratchbox=\box52
-\nofMPsegments=\count272
-\nofMParguments=\count273
+\scratchcounter=\count196
+\scratchdimen=\dimen157
+\scratchbox=\box50
+\nofMPsegments=\count197
+\nofMParguments=\count198
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count274
-\MPscratchDim=\dimen162
-\MPnumerator=\count275
-\makeMPintoPDFobject=\count276
+\MPscratchCnt=\count199
+\MPscratchDim=\dimen158
+\MPnumerator=\count266
+\makeMPintoPDFobject=\count267
 \everyMPtoPDFconversion=\toks31
-) (E:\Latex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -279,7 +293,6 @@ Logo.pdf>] (Test.toc)
 
  [2
 
-
 ] (Test.lof
 Overfull \hbox (12.05968pt too wide) in paragraph at lines 2--2
  [][] []\OT1/cmr/m/n/10.95 I2C Bus Bei-spiel Quel-le: https://www.analog.com/en
@@ -290,7 +303,7 @@ Overfull \hbox (12.05968pt too wide) in paragraph at lines 2--2
 <inserted text> 
                 $
 l.3 ...-i-h-1-h-2-h-n-o_fig1_321259051\relax }}{6}
-                                                  {}%
+                                                  %
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -298,7 +311,7 @@ you left one out. Proceed, with fingers crossed.
 <argument> ...h-1-h-2-h-n-o_fig1_321259051\relax }
                                                   
 l.3 ...-i-h-1-h-2-h-n-o_fig1_321259051\relax }}{6}
-                                                  {}%
+                                                  %
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -309,7 +322,7 @@ deleted material, e.g., by typing `I$}'.
 \@dottedtocline ...\nobreak \hskip -\leftskip {#4}
                                                   \nobreak \leaders \hbox {$...
 l.3 ...-i-h-1-h-2-h-n-o_fig1_321259051\relax }}{6}
-                                                  {}%
+                                                  %
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -320,7 +333,7 @@ deleted material, e.g., by typing `I$}'.
 <inserted text> 
                 $
 l.3 ...-i-h-1-h-2-h-n-o_fig1_321259051\relax }}{6}
-                                                  {}%
+                                                  %
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -372,7 +385,6 @@ my insertion and my current dilemma will both disappear.
 \openout2 = `Theoretischer_Hintergrund.aux'.
 
  (Theoretischer_Hintergrund.tex [5
-
 
 
 ]
@@ -567,11 +579,6 @@ File: Pictures/Sigmoid.png Graphic file (type png)
 Package pdftex.def Info: Pictures/Sigmoid.png  used on input line 111.
 (pdftex.def)             Requested size: 284.54124pt x 142.26532pt.
  [8 <./Pictures/Relu.png>]
-Overfull \hbox (16.43832pt too wide) in paragraph at lines 119--120
-\OT1/cmr/m/n/10.95 Da sich her-aus-ge-stellt hat, dass ein PicKit ei-ne zu ge-r
-in-ge Ab-ta-stra-te erm[]oglicht,
- []
-
 
 ! LaTeX Error: \begin{document} ended by \end{flushleft}.
 
@@ -613,20 +620,498 @@ and I'll forget about whatever was undefined.
 [10
 
 
-
 ]
 <Pictures/Dyn_Schaltung.jpg, id=81, 657.45625pt x 613.29124pt>
 File: Pictures/Dyn_Schaltung.jpg Graphic file (type jpg)
 <use Pictures/Dyn_Schaltung.jpg>
-Package pdftex.def Info: Pictures/Dyn_Schaltung.jpg  used on input line 35.
+Package pdftex.def Info: Pictures/Dyn_Schaltung.jpg  used on input line 36.
 (pdftex.def)             Requested size: 341.43782pt x 113.80334pt.
+ [11 <./Pictures/Dyn_Schaltung.jpg>]
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-Overfull \hbox (3.20708pt too wide) in paragraph at lines 53--54
-\OT1/cmr/m/n/10.95 Das Ziel des Echt-zeit-mo-ni-to-ring ist es, in lau-fen-den 
-Be-trieb Aus-sa-gen dar[]uber
- []
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-[11 <./Pictures/Dyn_Schaltung.jpg>]) [12]
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...Teil von verschiedenen Signalen sein kann}
+                                                  
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+) [0] [1]
 \openout2 = `Ergebnisse.aux'.
 
  (Ergebnisse.tex
@@ -762,7 +1247,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<Pictures/3_Boards_Temp.png, id=88, 433.62pt x 289.08pt>
+<Pictures/3_Boards_Temp.png, id=92, 433.62pt x 289.08pt>
 File: Pictures/3_Boards_Temp.png Graphic file (type png)
 <use Pictures/3_Boards_Temp.png>
 Package pdftex.def Info: Pictures/3_Boards_Temp.png  used on input line 12.
@@ -1015,7 +1500,6 @@ I'm leaving a black square so that you can see where I am right now.
 [0
 
 
-
  <./Pictures/3_Boards_Temp.png>]
 ! Missing } inserted.
 <inserted text> 
@@ -1039,59 +1523,68 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<Pictures/3_Boards_Leistung.png, id=94, 433.62pt x 289.08pt>
+<Pictures/3_Boards_Leistung.png, id=97, 433.62pt x 289.08pt>
 File: Pictures/3_Boards_Leistung.png Graphic file (type png)
 <use Pictures/3_Boards_Leistung.png>
 Package pdftex.def Info: Pictures/3_Boards_Leistung.png  used on input line 34.
 
 (pdftex.def)             Requested size: 341.4511pt x 170.71451pt.
-<Pictures/3_Board_Leistung_Filtered.png, id=95, 433.62pt x 289.08pt>
+<Pictures/3_Board_Leistung_Filtered.png, id=98, 433.62pt x 289.08pt>
 File: Pictures/3_Board_Leistung_Filtered.png Graphic file (type png)
 <use Pictures/3_Board_Leistung_Filtered.png>
 Package pdftex.def Info: Pictures/3_Board_Leistung_Filtered.png  used on input 
 line 45.
 (pdftex.def)             Requested size: 341.4511pt x 170.71451pt.
 [1 <./Pictures/3_Boards_Leistung.png>]
-<Pictures/Speed.png, id=100, 256.5585pt x 314.3745pt>
+<Pictures/Speed.png, id=103, 256.5585pt x 314.3745pt>
 File: Pictures/Speed.png Graphic file (type png)
 <use Pictures/Speed.png>
 Package pdftex.def Info: Pictures/Speed.png  used on input line 58.
 (pdftex.def)             Requested size: 113.80997pt x 170.72388pt.
  [2 <./Pictures/3_Board_Leistung_Filtered.png>]
-<Pictures/Sinus_Aud.png, id=105, 472.01344pt x 107.65219pt>
+<Pictures/Sinus_Aud.png, id=108, 472.01344pt x 107.65219pt>
 File: Pictures/Sinus_Aud.png Graphic file (type png)
 <use Pictures/Sinus_Aud.png>
 Package pdftex.def Info: Pictures/Sinus_Aud.png  used on input line 75.
 (pdftex.def)             Requested size: 341.44113pt x 113.81345pt.
-<Pictures/Clapped_Sine.png, id=106, 420.06938pt x 312.41719pt>
+<Pictures/Clapped_Sine.png, id=109, 420.06938pt x 312.41719pt>
 File: Pictures/Clapped_Sine.png Graphic file (type png)
 <use Pictures/Clapped_Sine.png>
 Package pdftex.def Info: Pictures/Clapped_Sine.png  used on input line 81.
 (pdftex.def)             Requested size: 341.43373pt x 113.80965pt.
  [3 <./Pictures/Speed.png> <./Pictures/Sinus_Aud.png>]
-<Pictures/TatsDaten.png, id=112, 925.20656pt x 322.20375pt>
+<Pictures/TatsDaten.png, id=115, 925.20656pt x 322.20375pt>
 File: Pictures/TatsDaten.png Graphic file (type png)
 <use Pictures/TatsDaten.png>
 Package pdftex.def Info: Pictures/TatsDaten.png  used on input line 87.
 (pdftex.def)             Requested size: 341.43166pt x 113.81036pt.
-<Pictures/Loss.png, id=113, 433.62pt x 289.08pt>
+ [4 <./Pictures/Clapped_Sine.png> <./Pictures/TatsDaten.png>]
+<Pictures/Loss.png, id=121, 433.62pt x 289.08pt>
 File: Pictures/Loss.png Graphic file (type png)
 <use Pictures/Loss.png>
-Package pdftex.def Info: Pictures/Loss.png  used on input line 105.
+Package pdftex.def Info: Pictures/Loss.png  used on input line 106.
 (pdftex.def)             Requested size: 227.62082pt x 113.8082pt.
-) [4 <./Pictures/Clapped_Sine.png> <./Pictures/TatsDaten.png>] [5 <./Pictures/L
-oss.png>]
+) [5 <./Pictures/Loss.png>]
 \openout2 = `Fazit.aux'.
 
 
-No file Fazit.tex.
+(Fazit.tex) [6
+
+
+]
 \openout2 = `Literaturverzeichnis.aux'.
 
-(Literaturverzeichnis.tex) [6
+ (Literaturverzeichnis.tex
+! Undefined control sequence.
+l.7     note={\url
+                  {http://www.deeplearningbook.org}},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-
-
-
+) [7
 
 
 ]
@@ -1118,29 +1611,38 @@ or  <return>  to continue without it.
 LaTeX Warning: There were multiply-defined labels.
 
  )
-(\end occurred inside a group at level 1)
+(\end occurred inside a group at level 5)
 
-### semi simple group (level 1) entered at line 49 (\begingroup)
+### semi simple group (level 5) entered at line 49 (\begingroup)
+### simple group (level 4) entered at line 69 ({)
+### simple group (level 3) entered at line 69 ({)
+### simple group (level 2) entered at line 69 ({)
+### simple group (level 1) entered at line 69 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4439 strings out of 479697
- 68870 string characters out of 2884124
- 372173 words of memory out of 3000000
- 21430 multiletter control sequences out of 15000+200000
- 410496 words of font info for 51 fonts, out of 3000000 for 9000
+ 4380 strings out of 481199
+ 70054 string characters out of 2905595
+ 340662 words of memory out of 3000000
+ 19880 multiletter control sequences out of 15000+200000
+ 542154 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,8n,74p,1454b,376s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,8n,47p,1454b,766s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\lamer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\tcrm1095.pk><E:/Latex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/L
-atex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Latex/fonts/type1/public/ams
-fonts/cm/cmex10.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Lat
-ex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/Latex/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/Latex/fon
-ts/type1/public/amsfonts/cm/cmssbx10.pfb><E:/Latex/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Test.pdf (19 pages, 776334 bytes).
+ec/dpi600\tcrm1095.pk><C:/Users/lamer/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb><C:/Users/lamer/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lamer/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lamer/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lamer/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lam
+er/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
+sers/lamer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><C:/Users/lamer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmssbx10.pfb><C:/Users/lamer/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Users/lamer/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb>
+Output written on Test.pdf (21 pages, 783460 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 170 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

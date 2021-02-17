@@ -1,7 +1,7 @@
 \section{Methodik}
 \subsection{Statische Datenerfassung}
 
-Die statische Datenerfassung dient dem Zweck, die Funktionalität der Wandler unter einer konstanten Last zu überprüfen. Es wurden zwei simple Testfälle aufgebaut. Bei beiden handelt es sich um Parallelschaltungen von 4,7 Ohm Widerständen. Der erste Fall schaltet zwei davon parallel, der zweite drei. Durch das Anwenden des Ohmschen Gesetzes, kann ein theoretischer Stromfluss und somit auch die theoretische Leistungsaufnahme berechnet werden. Der Wandler wird durch ein Netzteil mit 24 Volt Ausgangsspannung betrieben. Diese 24 Volt werden von dem Wandler auf 12 V herabgesetzt. Somit kann der Strom berechnet werden, der durch die Widerstände fließt. Bei zwei parallel-geschaltenen Widerständen ergibt das einen theoretischen Stromfluss von 5.1 A und bei drei parallel geschaltenen Widerständen 7.65 A.
+Die statische Datenerfassung dient dem Zweck, die Funktionalität der Wandler unter einer konstanten Last zu überprüfen. Es wurden zwei simple Testfälle aufgebaut. Bei beiden handelt es sich um Parallelschaltungen von 4,7 Ohm Widerständen. Der erste Fall schaltet zwei davon parallel, der zweite drei. Durch das Anwenden des Ohmschen Gesetzes, kann ein theoretischer Stromfluss und somit auch die theoretische Leistungsaufnahme berechnet werden. Der Wandler wird durch ein Netzteil mit 24 Volt Ausgangsspannung betrieben. Diese 24 Volt werden von dem Wandler auf 12 V herabgesetzt. Somit kann der Strom berechnet werden, der durch die Widerstände fließt. Bei zwei parallel-geschaltenen Widerständen ergibt das einen theoretischen Stromfluss von 5.1 A wie und bei drei parallel geschaltenen Widerständen 7.65 A wie in den Gleichungen 3 und 4 zu sehen ist.
 
 \begin{equation}
 \label{Ohmsches Gesetz}
@@ -17,13 +17,14 @@ Die statische Datenerfassung dient dem Zweck, die Funktionalität der Wandler un
 
 \begin{equation}
 \label{Ohmsches Gesetz}
-\\frac{12V}{4.7 Ohm}*3 = 7.65 A 
+12V*4.7 Ohm*3 = 7.65 A 
 \end{equation}
 
 
 Da es sich in diesen Testfällen um statische Lasten handelt, sind keine hohen Abtastraten erforderlich, deshalb wird zur Datenerfassung ein PicKit mitsamt I²C Schnittstelle verwendet und kein Raspberry Pi. 
 
-Des Weiteren ist zu erwähnen, dass mehrere Wandler getestet wurden, einer davon mit \hl{welcher fehler}. Bei der Messung der Daten, zeigt sich, dass sowohl Temperatur als auch Ausgangsstrom, dieses Wandlers unter gleicher Last höher waren als die der anderen, was man in \hl{Abb. X erkennen kann} 
+Nachdem die Daten erfasst worden sind, müssen diese noch verarbeitet werden, um die entsprechenden Werte zu erhalten.
+ 
 
 \subsection{Dynamische Datenerfassung}
 
@@ -50,15 +51,20 @@ Die Nyquist-Frequenz stammt aus der Signaltheorie und setzt die maximale Abtastr
 
 
 \subsubsection{Echtzeitmonitoring}
-Das Ziel des Echtzeitmonitoring ist es, in laufenden Betrieb Aussagen darüber zu treffen welche Last gerade an dem Wandler angeschlossen ist. Eine Last ist in diesem Fall ein Audiosignal, welches durch einen Stereo Verstärker, welcher an den Wandler angeschlossen ist, verstärkt wird.  Zur Klassifizierung, welche Last, bzw. welches Signal gerade am Stereoverstärker angeschlossen ist, wird ein neuronales Netz verwendet, welches per Tensorflow API generiert wird. Die gemessenen Signale werden dann vom Raspberry Pi, zwecks Verminderung der Rechenleistung, per Socket an einen Rechner geschickt, welcher dann die Daten per Neuronales Netz interpretiert und eine entsprechende Klassifizierung berechnet. Als Testfälle wurden Sinussignal mit verschiedenen Frequenzen verwendet, um die allgemeine Anwendbarkeit von Deep-Learning Algorithmen zu verifizieren. 
+Das Ziel des Echtzeitmonitoring ist es, in laufenden Betrieb des Wandlers Daten zu Strom, Spannung und Temperatur zu erheben, diese Daten zur Verarbeiten und Aussagen darüber zu treffen, welche Last gerade an dem Wandler angeschlossen ist. Eine Last ist in diesem Fall ein Audiosignal, welches durch einen Stereo Verstärker, welcher an den Wandler angeschlossen ist, verstärkt wird. 
+Zur Klassifizierung, welche Last, bzw. welches Signal gerade am Stereoverstärker angeschlossen ist, wird ein neuronales Netz verwendet, welches per Tensorflow API generiert wird. Die gemessenen Signale werden dann vom Raspberry Pi, zwecks Verminderung der Rechenleistung, per Socket an einen Rechner geschickt, welcher dann die Daten per Neuronales Netz interpretiert und eine entsprechende Klassifizierung berechnet. Als Testfälle wurden Sinussignal mit verschiedenen Frequenzen verwendet, um die allgemeine Anwendbarkeit von Deep-Learning Algorithmen zu verifizieren. 
 
 
 \subsubsection{Vergleichsmonitoring mehrerer Wandler im laufenden Betrieb}
 
-Das Ziel des Vergleichsmonitoring ist es, eine Software Struktur aufzubauen, welche es ermöglicht, mehrere Wandler gleichzeitig auf einem Raspberry Pi per I²C zu betreiben und die Daten in Echtzeit zu visualisieren und in Textdateien abzuspeichern. Dadurch, dass die verwendeten Wandler unterschiedlich Adressen besitzen, müssen keine Ergänzungen an der Schaltung durchgeführt werden, es reicht einzig die Datenleitungen (SDA, SCL) zusammenzuschalten. Während der Messung der Wandler, werden die Daten von jedem Messpunkt in Echtzeit auf ein Koordinatensystem per PyPlot übertragen. 
+Das Ziel des Vergleichsmonitoring ist es, eine Software Struktur aufzubauen, welche es ermöglicht, mehrere Wandler gleichzeitig auf einem Raspberry Pi per I²C zu betreiben und die Daten in Echtzeit zu visualisieren und in Textdateien abzuspeichern. 
+ 
+\hl{wie in Abb. X} zu sehen ist, werden für diesen Testaufbau zwei unterschiedliche Wandler parallel zu einem Netzteil geschaltet, welches 24 V Versorgungsspannung liefert. Die jeweiligen Ausgänge der Wandler werden dann an einen Lastwiderstand angeschlossen. Des Weiteren werden die Ground, SDA und SCL Verbindungen beider Wandler verbunden.
+
+Dadurch, dass die verwendeten Wandler unterschiedlich Adressen besitzen, müssen keine Ergänzungen an der Schaltung durchgeführt werden, es reicht einzig die Datenleitungen (SDA, SCL) zusammenzuschalten. Während der Messung der Wandler, werden die Daten von jedem Messpunkt in Echtzeit auf ein Koordinatensystem per PyPlot übertragen.
 
 
 \subsection{Anwendbarkeitstest - Neuronales Netz}
 
-Das Ziel des Anwenbarkeitstest ist es zu evaluieren, ob und in welchem Ausmaß sich die vom Wandler generierten Daten sich für Anwendungsfälle im Bereich des Maschine Learning, im speziellen dem der Neuronalen Netze, eignen. Hierfür wird ein simpler Testfall generiert, in dem die Daten mehrerer Signale mit verschiedenen Frequenzen als Input-Daten dienen und der Output entsprechend eine Klassifizierung der Signalfrequenz herausgeben soll. 
+Das Ziel des Anwenbarkeitstest ist es zu evaluieren, ob und in welchem Ausmaß sich die vom Wandler generierten Daten sich für Anwendungsfälle im Bereich des Maschine Learning, im speziellen dem der Neuronalen Netze, eignen. Hierfür wird ein simpler Testfall generiert, in dem die Daten mehrerer Signale mit verschiedenen Frequenzen als Input-Daten dienen und der Output entsprechend eine Klassifizierung der Signalfrequenz herausgeben soll. Als Input-Daten werden zeitliche Verläufe der Leistung eingespeist. \hl{wie in Abb. x zu sehen ist, bedeutet dass, das t0 - t50 Samples für einen Datensatz verwendet werden. Es ist deshalb bedeutsam die Daten so zu strukturieren, da damit Gewährleistet wird, dass das Neuronale Netz die Daten interpretieren kann. In einem Negativbeispiel, in dem nur 1 einziges Sample genommen werden würde, hätte ein NN Probleme damit dieses einzige Sample zu Klasifizieren, da es Teil von verschiedenen Signalen sein kann}
 
