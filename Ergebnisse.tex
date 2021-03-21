@@ -9,7 +9,7 @@ In Abb. 10 ist der Temperaturverlauf [in °C] von drei unterschiedlichen Wandler
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height= 6cm, width = 12cm]{Pictures/3_Boards_Temp.png}
+    \includegraphics[height= 8cm, width = \textwidth]{Pictures/3_Boards_Temp.png}
     \caption{Temperaturvergleich mehrerer Wandler}
 \end{figure}
 
@@ -31,7 +31,7 @@ Aufgrund dieser Resultate ist es für Maschine Learning Applikationen sinnvoll a
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height= 6cm, width = 12cm]{Pictures/3_Boards_Leistung.png}
+    \includegraphics[height= 8cm, width = \textwidth]{Pictures/3_Boards_Leistung.png}
     \caption{Leistungsvergleich mehrerer Wandler}
 \end{figure}
 
@@ -42,49 +42,103 @@ In \hl{Abb. x} ist der Leistungsverlauf zu erkennen, auf den ein Tiefpassfilter 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height= 6cm, width = 12cm]{Pictures/3_Board_Leistung_Filtered.png}
+    \includegraphics[height= 8cm, width = \textwidth]{Pictures/3_Board_Leistung_Filtered.png}
     \caption{Gefilterter Leistungsverlauf der drei Wandler}
 \end{figure}
 
+
+\begin{tabular}[h]{r|r|r}
+\label{tab:14spannungsmessung}
+
+\textbf{$Abtastrate$} & \textbf{$Datensatz$}\\
+\hline
+$334$	&	$HB\_C\_02\_200Hz$		\\
+$333$	&	$HB\_C\_02\_20Hz$		\\
+$339$	&	$HB\_C\_02\_30Hz$		\\
+$335$	&	$HB\_C\_02\_5Hz$		\\
+$336$	&	$HB\_C\_02\_Cash$		\\
+$333$	&	$HB\_C\_02\_Lose$		\\
+$335$	&	$HB\_C\_02\_SoS$		\\
+$330$	&	$HB\_C\_07\_200Hz$		\\
+$340$	&	$HB\_C\_07\_20Hz$		\\
+$335$	&	$HB\_C\_07\_30Hz$		\\
+$332$	&	$HB\_C\_07\_5Hz$		\\
+$335$	&	$HB\_C\_07\_Cash$		\\
+$339$	&	$HB\_C\_07\_Lose$		\\
+$334$	&	$HB\_C\_07\_SoS$		\\
+$338$	&	$HB\_C\_08\_200Hz$		\\
+$336$	&	$ HB\_C\_08\_20Hz$		\\
+$339$	&	$ HB\_C\_08\_30Hz$		\\
+$334$	&	$ HB\_C\_08\_5Hz$		\\
+$335$	&	$ HB\_C\_08\_Cash$		\\
+$339$	&	$ HB\_C\_08\_Lose$		\\
+$337$	&	$ HB\_C\_08\_SoS$		\\
+$334$	&	$HB\_C\_15\_200Hz$		\\
+$335$	&	$HB\_C\_15\_20Hz$		\\
+$332$	&	$HB\_C\_15\_30Hz$		\\
+$337$	&	$HB\_C\_15\_5Hz$		\\
+$335$	&	$HB\_C\_15\_Cash$		\\
+$335$	&	$HB\_C\_15\_Lose$		\\
+$332$	&	$HB\_C\_15\_SoS$		\\
+$335$	&	$Durchschnitt$		\\
+
+
+
+
+
+	
+\end{tabular}
+\caption{Messergebnisse am 14V Messbereich in $0,5V$ Schritten.}
+\end{table}
+
+
 \begin{flushleft}
-
-
 
 \subsection{Ergebnisse der dynamischen Tests}
 Zur dynamischen Datenerfassung ist zu sagen, dass das I²C Protokoll sich limitierend darauf ausgewirkt hat. Dadurch, dass stabile Programmausführung nur bei einer I²C Taktrate von 70 KHz gewährleistet war, war die Konsequenz daraus, dass die Abtastrate ebenfalls reduziert wurde. Die Ermittlung der Abtastrate erfolgte durch Messungen mehrerer Wandler, die mit verschiedenen Signalen gespeist wurden.Wie in Abb. 13 zu erkennen ist, wurden zwei verschiedene Wandler mit jeweils 6 verschiedenen Signalen verwendet. Zur Bestimmung der jeweiligen Abtastrate wurde zu durch Zeitstempel das Zeitdelta bestimmt, d. h. der Zeitraum in dem die Messungen durchgeführt wurden. Anschließend wurde die Anzahl der aufgenommenen Samples durch das Zeitdelta geteilt, um so auf die durchschnittliche Abtastrate zu kommen. Darauffolgend wurde der Mittelwert von allen Wandler-Signal Paaren berechnet, welcher ~110 Hz beträgt. Wenn auf dieses Ergebnis die oben genannten Konzepte der Nyquist Frequenz angewendet werden, so zeigt sich, dass die maximale Signalfrequenz, welche ohne Verzerrungen durch den Wandler abgetastet werden kann, bei 55 Hz liegt. Aus diesem Grund wurden im nachfolgenden Test mit einem Neuronalen Netz nur Signalfrequenzen verwendet, welche einen geringere Frequenz als 55 Hz besitzen. 
 
 \begin{figure}[H]
     \centering
- \includegraphics[height= 6cm, width =4 cm]{Pictures/Speed.png}
+ \includegraphics[height= 6cm,width = 6cm]{Pictures/Speed.png}
     \caption{Berechnung der Abtastrate}
 \end{figure}
 
 
-In Abb. 4 ist das generierte Signal zu sehen, welches in den Verstärker eingespeist wird. Dabei handelt es sich in diesem Beispiel um ein 10 Hz Sinussignal, welches in Audacity generiert wurde und als Signalinput für den Stereo-Verstärker dient. Dadurch, dass der Verstärker sowohl positive als auch negative Signale verstärkt, ergibt sich für die reine Leistungsaufnahme des Wandlers eine theoretische Leistungskurve wie sie in Abb. 11 dargestellt ist, nämlich  der Betrag einer Sinusfunktion:
+In Abb. \hl{4} ist das generierte Signal zu sehen, welches in den Verstärker eingespeist wird. Dabei handelt es sich in diesem Beispiel um ein 10 Hz Sinussignal, welches in Audacity generiert wurde und als Signalinput für den Stereo-Verstärker dient. Dieses Signal kann mit folgender Formel beschrieben werden:
 
-\begin{equation}[H]
-f(x) = |sin(2 * pi*x*10)|
+\begin{equation}
+f(x) = sin(2\pi10x)
 \end{equation}
-
-Dadurch, dass es vorher ein Sinussignal mit einer Frequenz von 10 Hz war, ist es nun ein Sinussignal mit einer effektiven Frequenz von 20 Hz.
-
-Das Messen der Daten erfolgte auf einem Raspberry Pi per I²C Protokoll und einer eingestellten Taktrate von 70 KHz, da diese Stabilität gewährleistet. Die Datenerhebung und Verarbeitung erfolgte durch die Programmiersprache Python.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height= 4cm, width = 12cm]{Pictures/Sinus_Aud.png}
+    \includegraphics[height= 6cm, width = \textwidth]{Pictures/Sinus_Aud.png}
     \caption{In Audacity generiertes 10 Hz Sinussignal}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[height= 4cm, width = 12cm]{Pictures/Clapped_Sine.png}
-    \caption{Effektive Frequenz eines 10 Hz Signals ist 20 Hz, weil, weil es für den Verstärker egal ist ob + oder - Signal }
-\end{figure}
+
+Dadurch, dass der Verstärker sowohl positive als auch negative Signale verstärkt, ergibt sich für die reine Leistungsaufnahme des Wandlers eine theoretische Leistungskurve wie sie in Abb. \hl{11} dargestellt ist, nämlich  der Betrag der o. g. Sinusfunktion:
+
+\begin{equation}
+|f(x)| = |sin(2 * pi*x*10)|
+\end{equation}
+
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height= 4cm, width = 12cm]{Pictures/TatsDaten.png}
+    \includegraphics[height= 6cm, width = \textwidth]{Pictures/Clapped_Sine.png}
+    \caption{Effektive Frequenz eines 10 Hz Signals ist 20 Hz, weil, weil es für den Verstärker egal ist ob + oder - Signal }
+\end{figure}
+
+Dadurch, dass es vorher ein Sinussignal mit einer Frequenz von 10 Hz war, ist es nun der Absolutwert des selben Sinussignals mit einer effektiven Frequenz von 20 Hz.
+
+\hl{Das Messen der Daten erfolgte auf einem Raspberry Pi per I²C Protokoll und einer eingestellten Taktrate von 70 KHz, da diese Stabilität gewährleistet. Die Datenerhebung und Verarbeitung erfolgte durch die Programmiersprache Python.}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height= 6cm, width = \textwidth]{Pictures/TatsDaten.png}
     \caption{Tatsächlich gemessene Leistung des Wandlers}
 \end{figure}
 
@@ -103,6 +157,6 @@ Abb. 13 zeigt die Genauigkeit des Neuronalen Netzes in der Vorhersage der versch
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height= 4cm, width = 8cm]{Pictures/Loss.png}
+    \includegraphics[height= 7cm, width = \textwidth]{Pictures/Loss.png}
     \caption{Genauigkeit der Anwendbarkeitstests}
 \end{figure}

@@ -1,4 +1,4 @@
-\documentclass[a4paper, 11pt]{article}
+\documentclass[a4paper, 12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 \usepackage[englisch]{babel}
@@ -6,22 +6,61 @@
 \usepackage{amsmath}
 \usepackage{fixltx2e}
 \usepackage{color,soul}
-\usepackage{subcaption}
 \usepackage{caption}
-\usepackage{subcaption}
 \usepackage{float}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{subfig}
+\usepackage{geometry}
+\usepackage[headsepline]{scrlayer-scrpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{etoolbox}
+\usepackage{acronym}
+\usepackage{listings}
+%\usepackage{minted}
+
+\lstset
+{ %Formatting for code in appendix
+    language=Matlab,
+    basicstyle=\footnotesize,
+    numbers=left,
+    stepnumber=1,
+    showstringspaces=false,
+    tabsize=1,
+    breaklines=true,
+    breakatwhitespace=false,
+}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\fancyhead{}
+\fancyhead[LO,LE]{Kapitel: \headsection }
+%\fancyfoot{}
+%\fancyfoot[LE,RO]{Kapitel \thepage}
+%\fancyfoot[LO,CE]{\thechapter}
+
+\newgeometry{
+   top=2.5cm,
+   bottom=2.5cm,
+   outer=2.5cm,
+   inner=3.5cm,
+}
 
 \begin{document}
 \include{Titelseite}
 \tableofcontents
 \newpage
 \listoffigures
+\include{Abk}
+\include{Danksagung}
+\include{Abstract}
 \include{Einleitung}
 \include{Theoretischer_Hintergrund}
 \include{Methodik}
 \include{Ergebnisse}
 \include{Fazit}
 \include{Literaturverzeichnis}
+\include{Anhang}
 
 \end{document}
 

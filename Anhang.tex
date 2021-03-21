@@ -1,0 +1,555 @@
+\section{Anhang}
+
+Code für PICKIT: 
+
+\begin{lstlisting}{language = [Sharp]C}
+using System;
+using System.IO;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using PICkitS;
+
+namespace Bachelor
+{
+    class Program
+    {
+        static double Calc_Temp(byte TEMP_HIGH, byte TEMP_LOW)
+        {
+            int New_High = Convert.ToInt32(TEMP_HIGH);
+            int New_Low = Convert.ToInt32(TEMP_LOW);
+            int New_High = Convert.ToInt16(TEMP_HIGH);
+            int New_Low = Convert.ToInt16(TEMP_LOW);
+            New_High = New_High << 8;
+            double Temp = New_High + New_Low;
+            Temp = ((Temp / 1024 * 5) - 0.4) / 0.0195;
+            return Temp;
+
+        }
+
+        static double Calc_I_Out(byte I_Out_High, byte I_Out_Low)
+        {
+            int New_I_Out_High = Convert.ToInt32(I_Out_High);
+            int New_I_Out_Low = Convert.ToInt32(I_Out_Low);
+            int New_I_Out_High = Convert.ToInt16(I_Out_High);
+            int New_I_Out_Low = Convert.ToInt16(I_Out_Low);
+
+            New_I_Out_High = New_I_Out_High << 8;
+            double Amps = New_I_Out_High + New_I_Out_Low;
+            Amps = Amps / 1024 * 5 / 0.3;
+            return Amps;
+
+
+        }
+
+        static double Calc_V_Out(byte V_Out_High, byte V_Out_Low)
+        {
+            int New_V_Out_High = Convert.ToInt32(V_Out_High);
+            int New_V_Out_Low = Convert.ToInt32(V_Out_Low);
+            int New_V_Out_High = Convert.ToInt16(V_Out_High);
+            int New_V_Out_Low = Convert.ToInt16(V_Out_Low);
+
+            New_V_Out_High = New_V_Out_High << 8;
+            double Volts = New_V_Out_High + New_V_Out_Low;
+            Volts = Volts / 1024 * 5 * 6;
+            return Volts;
+        }
+
+
+        static double Calc_V_In(byte V_In_High, byte V_In_Low)
+        {
+            int New_V_In_High = Convert.ToInt32(V_In_High);
+            int New_V_In_Low = Convert.ToInt32(V_In_Low);
+            int New_V_In_High = Convert.ToInt16(V_In_High);
+            int New_V_In_Low = Convert.ToInt16(V_In_Low);
+
+            New_V_In_High = New_V_In_High << 8;
+            double Volts = New_V_In_High + New_V_In_Low;
+            Volts = Volts / 1024 * 5 * 13;
+            return Volts;
+        }
+
+
+
+
+        static void Main(string[] args)
+        {
+            /*Slave Adress of the Device */
+            byte DEV_ADDR_WRITE = 0x10;
+
+
+            /*Number of Bytes that should be read*/
+            byte NUM_BYTES = 0x08;
+
+            /*Registers that I want to read*/
+            byte V_IN_ADDR = 0x20;
+            byte I_OUT_ADDR = 0x22;
+            byte V_OUT_ADDR = 0x24;
+            byte TEMP_ADDR = 0x26;
+
+            /*Array where the data gets saved*/
+            byte[] Data_Array = new byte[NUM_BYTES];
+            Data_Array[0] = 0x20;
+
+            string Script_View = "";
+
+            /*Set Clock speed to 100kHz */
+            int Set_Clock = 100;
+            double Voltage = 3.3;
+
+            /*Timeout after 2 seconds*/
+            int Set_TimeOut = 10000;
+
+            string now = DateTime.Now.ToString("h:mm:ss tt");
+            string path = @"C:\Users\lamer\Downloads\Test.txt";
+            /*Set Clock speed to 100kHz  and voltage to 3.3 V*/
+            int Set_Clock = 400;
+            double Voltage = 3.3;
+
+            /*Timeout after 10 seconds*/
+            int Set_TimeOut = 100;
+       
+            string now = DateTime.Now.ToString("h:mm:ss tt");
+            string path = @"C:\Users\lamer\Downloads\Board_2_Test_3_Parallel.txt";
+
+            byte High = 0x01;
+            byte Low = 0x54;
+            double x = Calc_Temp(High, Low);
+            Console.WriteLine(x);
+            int new_high = Convert.ToInt32(High) << 8;
+            int net = new_high + Convert.ToInt32(Low);
+            Console.WriteLine(new_high);
+            Console.WriteLine(Low);
+            Console.WriteLine(net);
+
+            /*Initialisiert den PICKIT, falls mehrere Analyzer verwendet werden, 
+            dann die Funktion  Initialize_PICkitSerial mit dem USB Index verwenden 
+            Hier ist der USB-Index == 0*/
+            if (Device.Initialize_PICkitSerial(0))
+            {
+                Console.WriteLine("Device Initialization successful");
+            }
+            else
+            {
+                Console.WriteLine("Device Initialization failed \n");
+                return;
+            }
+            /*PicKit für I2C Master konfigurieren */
+            if (I2CM.Configure_PICkitSerial_For_I2CMaster())
+            {
+                Console.WriteLine("I2C Master Initialization successful");
+            }
+            else
+            {
+                Console.WriteLine("I2C Master Initialization failed \n");
+                return;
+            }
+
+            if (I2CM.Set_I2C_Bit_Rate(Set_Clock))
+            {
+                Console.WriteLine("Clock Set successfully to: " + Convert.ToString(Set_Clock));
+            }
+            else
+            {
+                Console.WriteLine("Setting Clock failed \n");
+                return;
+            }
+
+            I2CM.Set_Read_Wait_Time(Set_TimeOut);
+
+            Console.WriteLine("Timeout set to: " + Convert.ToString(Set_TimeOut) + " milliseconds\n");
+
+            //Netzteil hat interne Pull-Ups, daher keine PicKit pullups anmachen        
+            if (I2CM.Set_Pullup_State(false))
+            {
+                Console.WriteLine("Pullups Enabled");
+            }
+            else
+            {
+                Console.WriteLine("Pullups could not be enabled");
+            }
+          
+            while (1)
+            {
+                I2CM.Read(DEV_ADDR_WRITE, V_IN_ADDR, NUM_BYTES, ref Data_Array, ref Script_View);
+                double V_IN = Calc_V_In(Data_Array[0], Data_Array[1]);
+                double I_OUT = Calc_I_Out(Data_Array[2], Data_Array[3]);
+                double V_OUT = Calc_V_Out(Data_Array[4], Data_Array[5]);
+                double Temp = Calc_Temp(Data_Array[6], Data_Array[7]);
+
+                now = DateTime.Now.ToString("h:mm:ss");
+
+                string Temp1 = Temp.ToString("0.00");
+                string V_OUT1 = V_OUT.ToString("0.00");
+                string V_IN1 = V_IN.ToString("0.00");
+                string I_OUT1 = I_OUT.ToString("0.00");
+
+                using (StreamWriter w = File.AppendText(path))
+                {
+                    w.WriteLine(now + " " + Temp1 + " " + V_OUT1 + " " + V_IN1 + " " + I_OUT1);
+                }
+
+
+
+
+
+
+            }
+        }
+    }
+
+\end{lstlisting}
+
+\newpage
+
+1. Variante der Datenabfrage: \\
+
+\begin{lstlisting}[language = Python]
+def rec_data(device_adress, data_to_send, dcount):
+  temp = bus.read_i2c_block_data(device_adress, TEMP_ADDR,2)
+  i_out = bus.read_i2c_block_data(device_adress, I_OUT_ADDR,2)
+  v_out = bus.read_i2c_block_data(device_adress, V_OUT_ADDR,2)
+  v_in = bus.read_i2c_block_data(device_adress, V_IN_ADDR,2)
+
+  temp_high = temp[0]
+  temp_low= temp[1]
+
+  i_high = i_out[0]
+  i_low = i_out[1]
+
+  v_out_high = v_out[0]
+  v_out_low = v_out[1]
+
+  v_in_high = v_in[0]
+  v_in_low = v_in[1]
+
+\end{lstlisting}
+
+
+2. Variante der Datenabfrage: \\
+\begin{lstlisting}[language = Python]
+from smbus2 import SMBus
+import numpy as np
+import time
+import matplotlib.pyplot as plt
+from soundplayer import SoundPlayer
+from datetime import datetime
+import sys
+
+DEV_ADDR1 = 0x08
+V_IN_ADDR = 0x20
+I_OUT_ADDR = 0x22
+V_OUT_ADDR = 0x24
+TEMP_ADDR = 0x26
+
+V_IN_HIST = []
+I_OUT_HIST = []
+V_OUT_HIST = []
+TEMP_HIST = []
+POW_HIST = []
+data_to_send = np.empty((50))
+dcount = 0
+
+
+def calc_temp(val_high, val_low):
+    val = (val_high << 8) + val_low
+    Temp = ((val /1024 * 5) -0.4) / 0.0195
+    return Temp
+
+def calc_i_out(val_high, val_low):
+    val = (val_high << 8) + val_low
+    Amps = (val /1024 * 5) / 0.3
+    return Amps
+
+def calc_v_out(val_high, val_low):
+    val = (val_high << 8) + val_low
+    Volt = (val /1024 * 5) * 6
+    return Volt
+
+
+def calc_v_in(val_high, val_low):
+    val = (val_high << 8) + val_low
+    Volt = (val /1024 * 5) * 13
+    return Volt
+
+def rec_data(device_adress, data_to_send, dcount):
+
+  Data = bus.read_i2c_block_data(device_adress, V_IN_ADDR,8)
+
+  temp_high = Data[6]
+  temp_low= Data[7]
+
+  i_high = Data[2]
+  i_low = Data[3]
+
+  v_out_high = Data[4]
+  v_out_low = Data[5]
+
+  v_in_high = Data[0]
+  v_in_low = Data[1]
+
+
+  new_row = []
+  current_time = datetime.now().strftime("%H:%M:%S.%f")
+  new_row.append(current_time)
+  TEMP = calc_temp(temp_high, temp_low)
+
+  new_row.append(TEMP)
+
+  I_OUT = calc_i_out(i_high, i_low)
+  new_row.append(I_OUT)
+
+  V_OUT = calc_v_out(v_out_high, v_out_low)
+  new_row.append(V_OUT)
+
+  V_IN = calc_v_in(v_in_high, v_in_low)
+  new_row.append(V_IN)
+
+  new_row.append(V_OUT*I_OUT)
+ 
+  return new_row
+
+bus = SMBus(1)
+while(1):
+  try:
+     Data1 = rec_data(DEV_ADDR1)
+     with open("Test.txt", 'a') as f:
+            f.write(str(Data1) + "\n")
+   
+  except KeyboardInterrupt:
+        bus.close()
+        sys.exit()
+plt.show()
+
+\end{lstlisting}
+
+\newpage
+Code für die Datenverarbeitung  \\
+
+\begin{lstlisting}[language = Python]
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+import mpld3
+import scipy.signal as scys
+import enum
+from datetime import datetime
+import os
+
+def get_measure_time(t1, t2, sample_cnt):
+    fmt = '%H:%M:%S:%f'
+    t1 = t1#[:-4]
+    t2 = t2#[:-4]
+    tstamp1 = datetime.strptime(t1,fmt)
+    tstamp2 = datetime.strptime(t2,fmt)
+
+    if tstamp1 > tstamp2:
+        td = tstamp1 - tstamp2
+    else:
+        td = tstamp2 - tstamp1
+    td_secs = int(round(td.total_seconds()))
+    print(td_secs)
+    time = []
+    print(sample_cnt/td_secs)
+    for i in range(0, sample_cnt):
+        x = i * td_secs / sample_cnt
+        time.append(x)
+
+    with open("Metadata.txt" ,"a") as f:
+            f.write(str(sample_cnt/td_secs) + "\n")
+    return time
+
+#Enumeration, hat Atm keine Funktionalität
+class labels(enum.Enum):
+        Temperatur = 1
+        Ausgangsspannung = 2
+        Eingangsspannung = 3
+        Ausgangsstrom = 4
+        Leistung = 5
+verz = [" in °Celsius", " in Volt", " in Volt", " in Ampere", " in Watt"]
+
+#Metadaten für alle Parameter (Spannung,Strom,Temp) berechnen und in einem 2D Array speichern
+def calc_meta(data):
+        daten = np.empty((4, 5))
+        for i in range(0,4):
+            Mittel = np.mean(data[i])
+            StandAbw = np.std(data[i])
+            len_data = len(data[:][0])
+            minimum = np.min(data[i])
+            maximum = np.max(data[i])
+            daten[i][0] = Mittel
+            daten[i][1] = StandAbw
+            daten[i][2] = len_data
+            daten[i][3] = minimum
+            daten[i][4] = maximum
+            print("Mittelwert: ", Mittel,  "Standardabweichung: ", StandAbw,
+               "Länge: " , len_data,  "Minimum: ", minimum,  "Maximum: ", maximum)
+        return daten
+
+#Metadaten z. B. nur für die Temperatur von einem Board berechnen
+def calc_meta_single(data):
+    Mittel = np.mean(data)
+    StandAbw = np.std(data)
+    len_data = len(data)
+    minimum = np.min(data)
+    maximum = np.max(data)
+    return Mittel, StandAbw, len_data, minimum, maximum
+
+#Entpacken der Daten aus der Textfile und aufteilen in Zeitverlauf und Daten
+def unr_data(path):
+        count_samples = 0
+        count_errors = 0
+        data = np.genfromtxt(path, dtype ='str')
+        Daten = np.empty((5, len(data)))
+
+       # with open("Metadata.txt" ,"a") as f:
+         #   f.write(path+" ")
+        Time = data[:,0]
+
+        #Kleiner Loop um Fehler beim Format zu beseitigen
+        #z. B. 08:14:54.56666 -> 08:14:54:56666
+        #der Punkt ist ein Fehler der mir beim Daten generieren passiert ist
+        for idx,element in enumerate(Time):
+            element = np.char.replace(element, '.', ':')
+            Time[idx] = element
+        Time = get_measure_time(str(Time[0]), str(Time[len(data) -1]), len(data))
+
+        Temp = data[:,1]
+        Temp = Temp.astype(np.float32)
+
+        V_OUT = data[:,2]
+        V_OUT = V_OUT.astype(np.float32)
+
+        V_IN = data[:,3]
+        V_IN = V_IN.astype(np.float32)
+
+        I_OUT = data[:,4]
+        I_OUT = I_OUT.astype(np.float32)
+
+        POW = V_OUT * I_OUT
+
+        count_samples += len(data)
+
+        Daten[0] = Temp
+        Daten[1] = V_OUT
+        Daten[2] = V_IN
+        Daten[3] = I_OUT
+        Daten[4] = POW
+
+        for i in range(0, 4):
+            for j in range(0, len(data)):
+                if(Daten[i][j] < 0 or Daten[i][j] > 100):
+                    count_errors+=1
+                   # Daten[i][j] = Daten[i][j-1]
+        print(count_errors)
+
+        return Daten, Time
+
+#Funktion zum Filtern von hohen Frequenzen
+def apply_filter(data):
+        n = 15
+        b = [1.0 / n] * n
+        a = 1
+        filtered = scys.lfilter(b,a, data)
+        return filtered
+
+#Berechnen der Leistung aus Daten
+def Calc_Power(Voltage, Current):
+        return Voltage * Current
+
+
+#War eine spielerei, hat at the moment keine Verwendung
+def Conf_Plot(Data = None, Time = None, x = None, y = None, Filter = None, Title = None):
+        if(Filter == True):
+            Data = apply_filter(Data)
+
+        y = labels[y].value
+        fig = plt.figure()
+        ax1 = fig.add_subplot(211)
+        if(x == None):
+            ax1.set_ylabel(labels(y).name + verz[y-1])
+            ax1.set_xlabel("Zeit in Sekunden")
+            ax1.set_title(Title)
+            y_mean = [np.mean(Data[y-1])] * len(Data[y-1])
+            ax1.plot(Time[:], Data[y-1])#, label= labels(y).name + verz[y] +  vs  + Zeit in Sekunden)
+        else:
+            x = labels[x].value
+            ax1.set_ylabel(labels(y).name + verz[y-1])
+            ax1.set_xlabel(labels(x).name + verz[x-1])
+            ax1.set_Title(Title)
+            ax1.plot(Data[x-1], Data[y-1])#, label= labels(y).name + verz[y-1] +  vs  + labels(x).name + verz[x-1].name)
+        ax1.legend(loc ='best')
+        plt.savefig(labels(y).name)
+        plt.plot()
+        plt.show()
+        
+directory = 'C:\\Users\\lamer\\Downloads\\Bachelor\\Data\\CSV\\'
+for filename in os.listdir(directory):
+
+    Data, Time = unr_data(directory+filename)
+    x = calc_meta_single(Data[4])
+    print(filename,": ", x[0], x[1])
+
+    plt.plot(Time,Data[0], label = filename)
+    plt.xlabel('Zeit in Sekunden')
+    plt.ylabel('Temperatur in C')
+    plt.legend(loc = 2)
+    plt.show()
+
+\end{lstlisting}
+
+
+
+
+\newpage
+
+Code für das Neuronale Netz. 
+\begin{lstlisting}[language = Python]
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+import pydot 
+import graphviz
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+import mpld3
+import scipy.signal as scys
+import enum
+from datetime import datetime
+
+config = tf.compat.v1.ConfigProto()
+config.gpu_options.allow_growth = True
+config.log_device_placement = True
+sess= tf.compat.v1.Session(config=config)
+
+Training_Data = np.concatenate((_5Hz, _20Hz, _30Hz,  __5Hz, __20Hz, __30Hz,___5Hz, ___20Hz, ___30Hz), axis =0)
+np.random.shuffle(Training_Data)
+Solution = Training_Data[:, Training_Data.shape[1]-1]
+Training_Data = Training_Data[:,:-1]
+Input_Parameter = Training_Data.shape[1]
+Output_Layer_Size = 3
+Hidden_Layer_Size = int(Input_Parameter*(2/3)) + Output_Layer_Size
+print(Hidden_Layer_Size)
+
+
+
+for i in range(0, Training_Data.shape[1]-2):
+    max1 = max(Training_Data[:,i])
+    min1 = min(Training_Data[:,i])
+    Training_Data[:,i] = ( (Training_Data[:,i] - min1) / (max1-min1))
+    
+
+with sess:
+    model = tf.keras.Sequential(
+        [
+            layers.Dense(80, input_dim = Input_Parameter,  activation ="relu", name = "Start"),
+            layers.Dense(40, activation = "relu", name = "hidden1"),
+            layers.Dense(3, activation ="softmax", name = "Output"),
+        ]
+     )
+    model.compile(optimizer = "adam", loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+                      metrics=['accuracy'])
+    history = model.fit(Training_Data, Solution, epochs = 300)
+   
+\end{lstlisting}

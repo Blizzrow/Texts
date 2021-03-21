@@ -1,15 +1,25 @@
 \babel@toc {ngerman}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces I2C Bus Beispiel Quelle: https://www.analog.com/en/technical-articles/i2c-primer-what-is-i2c-part-1.html\relax }}{6}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Beispiel eines Neuronalen Netzes: https://www.researchgate.net/figure/Artificial-neural-network-architecture-ANN-i-h-1-h-2-h-n-o_fig1_321259051\relax }}{6}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Konzept des Feedforward Algorithmus \relax }}{7}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Rectified Linear Unit\relax }}{8}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Sigmoid Funktion\relax }}{9}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Versuchsaufbau der dynamischen Datenerfassung\relax }}{11}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Temperaturvergleich mehrerer Wandler\relax }}{0}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Leistungsvergleich mehrerer Wandler\relax }}{1}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Gefilterter Leistungsverlauf der drei Wandler\relax }}{2}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Berechnung der Abtastrate\relax }}{3}%
-\contentsline {figure}{\numberline {11}{\ignorespaces In Audacity generiertes 10 Hz Sinussignal\relax }}{3}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Effektive Frequenz eines 10 Hz Signals ist 20 Hz, weil, weil es für den Verstärker egal ist ob + oder - Signal \relax }}{4}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Tatsächlich gemessene Leistung des Wandlers\relax }}{4}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Genauigkeit der Anwendbarkeitstests\relax }}{5}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Verwendeter Hybrid DC-DC Wandler\relax }}{1}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces I2C Bus Beispiel \relax }}{2}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Struktur eines I²C Datenframes\relax }}{0}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Normalisierung von Daten\relax }}{1}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Normalisierte Daten}}}{1}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Daten vor der Normalisierung}}}{1}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Beispiel des Alias Effekt\relax }}{1}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Beispiel eines Neuronalen Netzes:\relax }}{2}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Konzept des Feedforward Algorithmus \relax }}{3}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces zwei mögliche Aktivierungsfunktionen\relax }}{0}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Sigmoid}}}{0}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering Rectified Linear Unit}}}{0}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Beispiel des Gradient Descent Algorithmus an einer beliebigen Funktion\relax }}{1}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Strukturierung der gemessenen Daten\relax }}{0}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Strukturierung der gemessenen Daten\relax }}{0}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Versuchsaufbau der dynamischen Datenerfassung\relax }}{3}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Temperaturvergleich mehrerer Wandler\relax }}{0}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Leistungsvergleich mehrerer Wandler\relax }}{1}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Gefilterter Leistungsverlauf der drei Wandler\relax }}{2}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Berechnung der Abtastrate\relax }}{4}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces In Audacity generiertes 10 Hz Sinussignal\relax }}{0}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Effektive Frequenz eines 10 Hz Signals ist 20 Hz, weil, weil es für den Verstärker egal ist ob + oder - Signal \relax }}{0}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Tatsächlich gemessene Leistung des Wandlers\relax }}{1}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Genauigkeit der Anwendbarkeitstests\relax }}{2}{}%
