@@ -23,7 +23,7 @@ In \hl{Abb. x} ist der Leistungsverlauf [in Watt] der drei Wandler geplotet gege
 12 V * 5.1 A = 61.2 W 
 \end{equation} 
 
-Somit liegt der Wandler mit der Bezeichnung "HB-C-02" am nächsten zum theoretisch berechneten Wert. Diese praktische Abweichung kann durch \hl{einen Leistungsabfall in den Leitungskabeln und der Hardware zumindest teilweise erklärt werden.}
+Somit liegt der Wandler mit der Bezeichnung "HB-C-02" am nächsten zum theoretisch berechneten Wert. Diese praktische Abweichung kann durch \hl{einen Leistungsabfall in den Leitungskabeln und Ungenauigkeiten in der  Hardware zumindest teilweise erklärt werden.}
 
 Aufgrund dieser Resultate ist es für Maschine Learning Applikationen sinnvoll auf diese Daten einen Frequenzfilter anzuwenden, um das Rauschen zu eliminieren, da ansonsten Inkonsistenzen bei den K.I Applikationen vorkommen können, da die Daten unter gleichen Bedingungen variieren. 
 
@@ -47,8 +47,14 @@ In \hl{Abb. x} ist der Leistungsverlauf zu erkennen, auf den ein Tiefpassfilter 
 \end{figure}
 
 
-\begin{tabular}[h]{r|r|r}
-\label{tab:14spannungsmessung}
+
+\begin{flushleft}
+
+\subsection{Ergebnisse der dynamischen Tests}
+Zur dynamischen Datenerfassung ist zu sagen, dass das I²C Protokoll sich limitierend darauf ausgewirkt hat. Dadurch, dass stabile Programmausführung nur bei einer I²C Taktrate von 70 KHz gewährleistet war, war die Konsequenz daraus, dass die Abtastrate ebenfalls reduziert wurde. Die Ermittlung der Abtastrate erfolgte durch Messungen mehrerer Wandler, die mit verschiedenen Signalen gespeist wurden.Wie in Abb. 13 zu erkennen ist, wurden zwei verschiedene Wandler mit jeweils 6 verschiedenen Signalen verwendet. Zur Bestimmung der jeweiligen Abtastrate wurde zu durch Zeitstempel das Zeitdelta bestimmt, d. h. der Zeitraum in dem die Messungen durchgeführt wurden. Anschließend wurde die Anzahl der aufgenommenen Samples durch das Zeitdelta geteilt, um so auf die durchschnittliche Abtastrate zu kommen. Darauffolgend wurde der Mittelwert von allen Wandler-Signal Paaren berechnet, welcher ~110 Hz beträgt. Wenn auf dieses Ergebnis die oben genannten Konzepte der Nyquist Frequenz angewendet werden, so zeigt sich, dass die maximale Signalfrequenz, welche ohne Verzerrungen durch den Wandler abgetastet werden kann, bei 55 Hz liegt. Aus diesem Grund wurden im nachfolgenden Test mit einem Neuronalen Netz nur Signalfrequenzen verwendet, welche einen geringere Frequenz als 55 Hz besitzen. 
+
+\begin{tabular}[h]{r|r}
+\label{Abtastratentabellle}
 
 \textbf{$Abtastrate$} & \textbf{$Datensatz$}\\
 \hline
@@ -86,22 +92,11 @@ $335$	&	$Durchschnitt$		\\
 
 
 
-	
 \end{tabular}
-\caption{Messergebnisse am 14V Messbereich in $0,5V$ Schritten.}
+\caption{Abtastraten von verschiedenen Wandlern unter verschiedenen Testfällen}
 \end{table}
 
 
-\begin{flushleft}
-
-\subsection{Ergebnisse der dynamischen Tests}
-Zur dynamischen Datenerfassung ist zu sagen, dass das I²C Protokoll sich limitierend darauf ausgewirkt hat. Dadurch, dass stabile Programmausführung nur bei einer I²C Taktrate von 70 KHz gewährleistet war, war die Konsequenz daraus, dass die Abtastrate ebenfalls reduziert wurde. Die Ermittlung der Abtastrate erfolgte durch Messungen mehrerer Wandler, die mit verschiedenen Signalen gespeist wurden.Wie in Abb. 13 zu erkennen ist, wurden zwei verschiedene Wandler mit jeweils 6 verschiedenen Signalen verwendet. Zur Bestimmung der jeweiligen Abtastrate wurde zu durch Zeitstempel das Zeitdelta bestimmt, d. h. der Zeitraum in dem die Messungen durchgeführt wurden. Anschließend wurde die Anzahl der aufgenommenen Samples durch das Zeitdelta geteilt, um so auf die durchschnittliche Abtastrate zu kommen. Darauffolgend wurde der Mittelwert von allen Wandler-Signal Paaren berechnet, welcher ~110 Hz beträgt. Wenn auf dieses Ergebnis die oben genannten Konzepte der Nyquist Frequenz angewendet werden, so zeigt sich, dass die maximale Signalfrequenz, welche ohne Verzerrungen durch den Wandler abgetastet werden kann, bei 55 Hz liegt. Aus diesem Grund wurden im nachfolgenden Test mit einem Neuronalen Netz nur Signalfrequenzen verwendet, welche einen geringere Frequenz als 55 Hz besitzen. 
-
-\begin{figure}[H]
-    \centering
- \includegraphics[height= 6cm,width = 6cm]{Pictures/Speed.png}
-    \caption{Berechnung der Abtastrate}
-\end{figure}
 
 
 In Abb. \hl{4} ist das generierte Signal zu sehen, welches in den Verstärker eingespeist wird. Dabei handelt es sich in diesem Beispiel um ein 10 Hz Sinussignal, welches in Audacity generiert wurde und als Signalinput für den Stereo-Verstärker dient. Dieses Signal kann mit folgender Formel beschrieben werden:
@@ -157,6 +152,6 @@ Abb. 13 zeigt die Genauigkeit des Neuronalen Netzes in der Vorhersage der versch
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height= 7cm, width = \textwidth]{Pictures/Loss.png}
+    \includegraphics[height= 8cm, width = \textwidth]{Pictures/Loss.png}
     \caption{Genauigkeit der Anwendbarkeitstests}
 \end{figure}

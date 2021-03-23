@@ -1,11 +1,11 @@
 \section{Methodik}
 
-\subsection{Möglichkeiten der Datenerfassung}
+\subsection{Datenerfassung}
 Dieser Abschnitt beinhaltet verschiedene Ansätze, wie die Daten vom Wandler abgerufen werden können. Dies beinhaltet die Verwendung eines PICkit Serial Analysers sowie die eines Raspberry Pi.
 
 
 \subsubsection{Notwendigkeit eines Pegelwandlers}
-Dadurch bedingt, dass der verwendete Wandler einen Pegel von fünf Volt am I²C Bus besitzt, und ein Raspberry Pi jedoch nur 3.3 Volt, ist es notwendig einen Pegelwandler zwischen die beiden Platinen zu schalten. Der dabei verwendete Pegelwandler von der Familie TXB01.
+Dadurch bedingt, dass der verwendete Wandler einen Pegel von fünf Volt am I²C Bus besitzt, und ein Raspberry Pi jedoch nur 3.3 Volt, ist es notwendig einen Pegelwandler zwischen die beiden Platinen zu schalten, sodass die Möglichkeit von Hardware defekten ausgeschlossen werden kann. Der dabei verwendete Pegelwandler hat die Bezeichnung TXS0108E. Die Schaltung des Aufbaus ist in Abb. \hl{XX} dargestellt. 
 
 \subsubsection{PICkit Serial Analyzer}
 Das Aufzeichnen der Wandler-Daten kann innerhalb zweier Plattformen durchgeführt werden. Eine Plattform ist hierbei ein PICkit Serial Analyzer, der es ermöglicht, auf einem Windows Betriebssystem unter der Verwendung der Programmiersprache C# \hl{Das I²C Protokoll} zu betreiben. Der genannte Serial Analyzer ist in Abb. \hl{X} zu erkennen. Dieser besitzt, wie in der Markierung 6 zu sehen ist mehrere Anschlüsse, welche für verschiedene Protokolle wie I²C, UART und SPI verwendet werden können. Der Quellcode, welcher zur Datenerfassung per PICkit verwendet wurde, ist im \hl{Anhang zu finden}. Der Ablauf des Programms beginnt mit der Definierung verschiedener Funktionen um aus Byte-Daten die tatsächlichen Werte zu berechnen. In der Main Funktion werden zu beginn alle relevante Programmparameter definiert und initialisiert. Dies schließt Adressen, Datenarrays sowie Konfigurationsparameter des PICkit mit ein.  Anschließend erfolgt die Initialisierung des PICkit mit den vorher definierten Parametern. Abgeschlossen wird das Programm durch einen superloop, welche kontinuierlich Daten vom Wandler ausliest, auswertet und in eine Datei abspeichert. \hl{Evtl. noch die Codezeilen mit angeben}
@@ -46,6 +46,9 @@ Dadurch bedingt, dass alle Signale rauschen, existiert die Möglichkeit einen So
 Eine weitere wichtige Funktion ist "calc\_meta". Diese Funktion dient dazu Metadaten des vorhandenen Datensatzes zu berechnen. Zu den Metadaten gehören: Mittelwert, Länge des Datensatzes, Standardabweichung, numerische Minimum- und Maximum-Werte. Dadurch, dass als Input-Parameter die gesamte Datenmatrix übergeben wird (data), ist die Ausgabe entsprechend eine Matrix in der zu jedem Datensatz (Strom, Spannung, Temperatur) ein Array mit den Metadaten gehört.
 
 Alle bisher genannten Funktionen können genutzt werden, um die Daten abzurufen und zu visualisieren, wie in \hl{den Zeilen} 158 bis 168 aufgezeigt ist. Es werden Daten aus jeder Datei in einem Verzeichnis geladen, Metadaten berechnet sowie ein bestimmtes Signal visualisiert werden.
+
+\subsection{Bestimmung der Abtastrate}
+Die Abtastrate des Systems ist durch mehrere Faktoren begrenzt.\hl{Der Verhältnismäßig größte Faktor ist dabei die Taktrate des I²C Busses.} Da diese maßgebend dafür ist, mit was für einem Takt die einzelnen Bits übertragen werden \hl{Siehe Absch. X für i2c}. Der Zweite Faktor, welche die Abtastrate beeinflusst ist die Menge an Daten, die durch das Protokoll übertragen wird. \hl{Dies bedeutet, dass, falls alle Daten des Wandlers abgefragt werden, ergibt dies eine geringere Abtastrate als wenn nur 1 Datenwert abgefragt wird.} Der letzte Aspekt, welcher betrachtet werden muss, ist die Menge an Code, die zwischen den einzelnen Abfragen ausgeführt werden muss. Je mehr Code zwischen nacheinanderfolgenden, periodisch auftretenden, I²C Abfragen liegt, desto langsamer ist die Abtastrate. Aus den o. g. Gründen kann es, je nach Anwendungsfall und Systemeinstellung, zu abweichenden Ergebnissen bei der Abtastrate führen. Deshalb werden die Tests, welche zur Bestimmung der Abtastrate dienen, alle unter gleichen Bedingungen durchgeführt. Dies bedeutet, dass für alle Tests eine I²C Taktrate von 70 KHz eingestellt wird, und der sowohl Code als auch die Datenabfrage nicht verändert werden.
 
 
 

@@ -1,55 +1,59 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.22)  20 MAR 2021 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.22)  21 MAR 2021 10:23
 entering extended mode
 **./Test.tex
 (Test.tex
-LaTeX2e <2020-10-01> patch level 2
-L3 programming layer <2020-12-07> xparse <2020-03-03>
-(E:\Latex\tex/latex/base\article.cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(E:\Latex\tex/latex/base\size12.clo
-File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-09-03>
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count177
-\c@section=\count178
-\c@subsection=\count179
-\c@subsubsection=\count180
-\c@paragraph=\count181
-\c@subparagraph=\count182
-\c@figure=\count183
-\c@table=\count184
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen138
-) (E:\Latex\tex/latex/base\inputenc.sty
-Package: inputenc 2020/08/01 v1.3d Input encoding file
+\bibindent=\dimen134
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 )
-(E:\Latex\tex/generic/babel\babel.sty
-Package: babel 2020/10/27 3.51 The Babel package
- (E:\Latex\tex/generic/babel\babel.def
-File: babel.def 2020/10/27 3.51 Babel common definitions
-\babel@savecnt=\count185
-\U@D=\dimen139
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/09/01 3.48 The Babel package
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/09/01 3.48 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
 \l@babelnohyphens=\language79
 
-(E:\Latex\tex/generic/babel\txtbabel.def)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count186
+\bbl@dirlevel=\count177
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(E:\Latex\tex/latex/arabi\bblopts.cfg
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(E:\Latex\tex/latex/babel-german\ngerman.ldf
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
+f
 Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
 phy)
 
-(E:\Latex\tex/latex/babel-german\ngermanb.ldf
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
+df
 Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
 aphy)
 Package babel Info: Making " an active character on input line 121.
@@ -72,84 +76,88 @@ Adding the global options:
 to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
-(E:\Latex\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(E:\Latex\tex/latex/graphics\keyval.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(E:\Latex\tex/latex/graphics\graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
- (E:\Latex\tex/latex/graphics\trig.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (E:\Latex\tex/latex/graphics-cfg\graphics.cfg
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(E:\Latex\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen140
-\Gin@req@width=\dimen141
-)
-(E:\Latex\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+) (C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip49
-
 For additional information on amsmath, use the `?' option.
-(E:\Latex\tex/latex/amsmath\amstext.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (E:\Latex\tex/latex/amsmath\amsgen.sty
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen142
-)) (E:\Latex\tex/latex/amsmath\amsbsy.sty
+\ex@=\dimen138
+))
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen143
+\pmbraise@=\dimen139
 )
-(E:\Latex\tex/latex/amsmath\amsopn.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count187
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count188
-\leftroot@=\count189
-LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count190
-\DOTSCASE@=\count191
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box47
-\strutbox@=\box48
-\big@size=\dimen144
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count192
-\c@MaxMatrixCols=\count193
+\inf@bad=\count178
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count179
+\leftroot@=\count180
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count181
+\DOTSCASE@=\count182
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count183
+\c@MaxMatrixCols=\count184
 \dotsspace@=\muskip16
-\c@parentequation=\count194
-\dspbrk@lvl=\count195
+\c@parentequation=\count185
+\dspbrk@lvl=\count186
 \tag@help=\toks19
-\row@=\count196
-\column@=\count197
-\maxfields@=\count198
+\row@=\count187
+\column@=\count188
+\maxfields@=\count189
 \andhelp@=\toks20
-\eqnshift@=\dimen145
-\alignsep@=\dimen146
-\tagshift@=\dimen147
-\tagwidth@=\dimen148
-\totwidth@=\dimen149
-\lineht@=\dimen150
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
 \@envbody=\toks21
 \multlinegap=\skip50
 \multlinetaggap=\skip51
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
-) (E:\Latex\tex/latex/base\fixltx2e.sty
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/base\fixltx2e.sty
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
 Applying: [2015/01/01] Old fixltx2e package on input line 46.
 
@@ -159,15 +167,14 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (fixltx2e)                See the latexrelease package for details.
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
-) (E:\Latex\tex/latex/graphics\color.sty
-Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+) (C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-(E:\Latex\tex/latex/graphics-cfg\color.cfg
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-)
-(E:\Latex\tex/generic/soul\soul.sty
+) (C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks23
 \SOUL@lasttoken=\toks24
@@ -175,176 +182,128 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@buffer=\toks26
 \SOUL@token=\toks27
 \SOUL@spaceskip=\skip52
-\SOUL@ttwidth=\dimen151
-\SOUL@uldp=\dimen152
-\SOUL@ulht=\dimen153
-) (E:\Latex\tex/latex/caption\caption.sty
+\SOUL@ttwidth=\dimen147
+\SOUL@uldp=\dimen148
+\SOUL@ulht=\dimen149
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-(E:\Latex\tex/latex/caption\caption3.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen154
-\captionmargin@=\dimen155
-\captionwidth=\dimen156
-\caption@tempdima=\dimen157
-\caption@indent=\dimen158
-\caption@parindent=\dimen159
-\caption@hangindent=\dimen160
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count199
-\c@continuedfloat=\count266
-) (E:\Latex\tex/latex/float\float.sty
+\c@caption@flags=\count190
+\c@continuedfloat=\count191
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count267
+\c@float@type=\count192
 \float@exts=\toks28
-\float@box=\box49
+\float@box=\box47
 \@float@everytoks=\toks29
-\@floatcapt=\box50
-) (E:\Latex\tex/latex/setspace\setspace.sty
+\@floatcapt=\box48
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(E:\Latex\tex/latex/subfig\subfig.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count268
+\c@KVtest=\count193
 \sf@farskip=\skip53
-\sf@captopadj=\dimen161
+\sf@captopadj=\dimen157
 \sf@capskip=\skip54
 \sf@nearskip=\skip55
-\c@subfigure=\count269
-\c@subfigure@save=\count270
-\c@lofdepth=\count271
-\c@subtable=\count272
-\c@subtable@save=\count273
-\c@lotdepth=\count274
+\c@subfigure=\count194
+\c@subfigure@save=\count195
+\c@lofdepth=\count196
+\c@subtable=\count197
+\c@subtable@save=\count198
+\c@lotdepth=\count199
 \sf@top=\skip56
 \sf@bottom=\skip57
 )
-(E:\Latex\tex/latex/geometry\geometry.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(E:\Latex\tex/generic/iftex\ifvtex.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (E:\Latex\tex/generic/iftex\iftex.sty
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count275
-\Gm@cntv=\count276
-\c@Gm@tempcnt=\count277
-\Gm@bindingoffset=\dimen162
-\Gm@wd@mp=\dimen163
-\Gm@odd@mp=\dimen164
-\Gm@even@mp=\dimen165
-\Gm@layoutwidth=\dimen166
-\Gm@layoutheight=\dimen167
-\Gm@layouthoffset=\dimen168
-\Gm@layoutvoffset=\dimen169
+\Gm@cnth=\count266
+\Gm@cntv=\count267
+\c@Gm@tempcnt=\count268
+\Gm@bindingoffset=\dimen158
+\Gm@wd@mp=\dimen159
+\Gm@odd@mp=\dimen160
+\Gm@even@mp=\dimen161
+\Gm@layoutwidth=\dimen162
+\Gm@layoutheight=\dimen163
+\Gm@layouthoffset=\dimen164
+\Gm@layoutvoffset=\dimen165
 \Gm@dimlist=\toks30
 
-(E:\Latex\tex/latex/geometry\geometry.cfg))
-(E:\Latex\tex/latex/koma-script\scrlayer-scrpage.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-sc
+rpage.sty
 Package: scrlayer-scrpage 2020/09/21 v3.32 KOMA-Script package (end user interf
 ace for scrlayer)
 
-(E:\Latex\tex/latex/koma-script\scrlayer.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.st
+y
 Package: scrlayer 2020/09/21 v3.32 KOMA-Script package (defining layers and pag
 e styles)
 
-(E:\Latex\tex/latex/koma-script\scrkbase.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.st
+y
 Package: scrkbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-(E:\Latex\tex/latex/koma-script\scrbase.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
 Package: scrbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(E:\Latex\tex/latex/koma-script\scrlfile.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
 Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
 
-(E:\Latex\tex/latex/koma-script\scrlfile-hook.sty
-Package: scrlfile-hook 2020/09/21 v3.32 KOMA-Script package (using LaTeX hooks)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-pa
+tcholdlatex.sty
+Package: scrlfile-patcholdlatex 2020/09/21 v3.32 KOMA-Script package (patching 
+old LaTeX kernels)
 
-
-LaTeX3 Info: Defining command \BeforeFile with sig. 'm' on line 61.
-
-
-LaTeX3 Info: Defining command \AfterFile with sig. 'm' on line 65.
-
-
-LaTeX3 Info: Defining command \BeforeClass with sig. 'm' on line 69.
-
-
-LaTeX3 Info: Defining command \BeforePackage with sig. 'm' on line 73.
-
-
-LaTeX3 Info: Defining command \AfterAtEndOfClass with sig. 'smo+m' on line 83.
-
-
-LaTeX3 Info: Defining command \AfterAtEndOfPackage with sig. 'smo+m' on line
-(LaTeX3)     93.
-
-
-LaTeX3 Info: Defining command \scrlfile@AfterClass with sig. 'smo+m' on line
-(LaTeX3)     173.
-
-
-LaTeX3 Info: Defining command \AfterClass with sig. '' on line 174.
-
-
-LaTeX3 Info: Defining command \scrlfile@AfterPackage with sig. 'smo+m' on line
-(LaTeX3)     191.
-
-
-LaTeX3 Info: Defining command \AfterPackage with sig. '' on line 192.
-
-
-LaTeX3 Info: Defining command \ReplaceInput with sig. '' on line 193.
-
-
-LaTeX3 Info: Defining command \ReplaceClass with sig. 'mm' on line 196.
-
-
-LaTeX3 Info: Defining command \ReplacePackage with sig. 'mm' on line 199.
-
-
-LaTeX3 Info: Defining command \UnReplaceInput with sig. '' on line 200.
-
-
-LaTeX3 Info: Defining command \UnReplaceClass with sig. 'm' on line 203.
-
-
-LaTeX3 Info: Defining command \UnReplacePackage with sig. 'mm' on line 206.
-
-
-LaTeX3 Info: Defining command \PreventPackageFromLoading with sig. 's+om' on
-(LaTeX3)     line 234.
-
-
-LaTeX3 Info: Defining command \StorePreventPackageFromLoading with sig. 'm' on
-(LaTeX3)     line 242.
-
-
-LaTeX3 Info: Defining command \ResetPreventPackageFromLoading with sig. '' on
-(LaTeX3)     line 247.
-
-
-LaTeX3 Info: Defining command \UnPreventPackageFromLoading with sig. 'sm' on
-(LaTeX3)     line 261.
-
-
-LaTeX3 Info: Defining command \BeforeClosingMainAux with sig. 'om' on line
-(LaTeX3)     274.
-
-
-LaTeX3 Info: Defining command \AfterReadingMainAux with sig. 'om' on line 287.
-
-
-LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
-(LaTeX3)     line 298.
-
-
-(E:\Latex\tex/latex/koma-script\scrlogo.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
 Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
+))
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2020-09-03 L3 programming layer (loader) 
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count269
+\l__pdf_internal_box=\box49
+))
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e-generic.tex
+\l__xparse_current_arg_int=\count270
+\g__xparse_grabber_int=\count271
+\l__xparse_m_args_int=\count272
+\l__xparse_v_nesting_int=\count273
 )))))
 \footheight=\skip58
 Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 211
@@ -352,7 +311,7 @@ Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 211
 ))
 Package scrlayer-scrpage Info: auto-selection of `pagestyleset=standard'.
 
-(E:\Latex\tex/latex/fancyhdr\fancyhdr.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
 
@@ -393,52 +352,50 @@ or  <return>  to continue without it.
 \f@nch@O@erf=\skip65
 \f@nch@O@olf=\skip66
 \f@nch@O@orf=\skip67
-) (E:\Latex\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count278
-)
-(E:\Latex\tex/latex/acronym\acronym.sty
+) (C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/08/24 v2.5j e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count274
+) (C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/acronym\acronym.sty
 Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
- (E:\Latex\tex/latex/bigfoot\suffix.sty
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
-) (E:\Latex\tex/latex/xstring\xstring.sty
-(E:\Latex\tex/generic/xstring\xstring.tex
-\integerpart=\count279
-\decimalpart=\count280
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\integerpart=\count275
+\decimalpart=\count276
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 \AC@clearlist=\toks31
-)
-(E:\Latex\tex/latex/listings\listings.sty
-\lst@mode=\count281
-\lst@gtempboxa=\box51
+) (C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count277
+\lst@gtempboxa=\box50
 \lst@token=\toks32
-\lst@length=\count282
-\lst@currlwidth=\dimen170
-\lst@column=\count283
-\lst@pos=\count284
-\lst@lostspace=\dimen171
-\lst@width=\dimen172
-\lst@newlines=\count285
-\lst@lineno=\count286
-\lst@maxwidth=\dimen173
-
-(E:\Latex\tex/latex/listings\lstmisc.sty
+\lst@length=\count278
+\lst@currlwidth=\dimen166
+\lst@column=\count279
+\lst@pos=\count280
+\lst@lostspace=\dimen167
+\lst@width=\dimen168
+\lst@newlines=\count281
+\lst@lineno=\count282
+\lst@maxwidth=\dimen169
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count287
-\lst@skipnumbers=\count288
-\lst@framebox=\box52
+\c@lstnumber=\count283
+\lst@skipnumbers=\count284
+\lst@framebox=\box51
 )
-(E:\Latex\tex/latex/listings\listings.cfg
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
-(E:\Latex\tex/latex/listings\lstlang1.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-(E:\Latex\tex/latex/psnfss\helvet.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
 
@@ -477,22 +434,8 @@ less on input line 37.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 4
-9.
-(E:\Latex\tex/latex/psnfss\ot1phv.fd
-File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-)
-(E:\Latex\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count289
-\l__pdf_internal_box=\box53
-) (Test.aux (Titelseite.aux)
-(Abk.aux) (Danksagung.aux) (Abstract.aux) (Einleitung.aux)
-(Theoretischer_Hintergrund.aux
-
-LaTeX Warning: Label `Aktivierungsfunktionen' multiply defined.
-
-) (Methodik.aux
+(Test.aux (Titelseite.aux) (Abk.aux) (Danksagung.aux) (Abstract.aux)
+(Einleitung.aux) (Theoretischer_Hintergrund.aux) (Methodik.aux
 
 LaTeX Warning: Label `Ohmsches Gesetz' multiply defined.
 
@@ -520,21 +463,29 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 4
+9.
 
-(E:\Latex\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen174
-\scratchbox=\box54
-\nofMPsegments=\count291
-\nofMParguments=\count292
+\scratchcounter=\count285
+\scratchdimen=\dimen170
+\scratchbox=\box52
+\nofMPsegments=\count286
+\nofMParguments=\count287
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen175
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen171
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
 \everyMPtoPDFconversion=\toks34
-) (E:\Latex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+)
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -591,7 +542,7 @@ Package scrlayer-scrpage Warning: Very small head height detected!
 (scrlayer-scrpage)                geometry option `head=17.99446pt'
 (scrlayer-scrpage)                \relax to avoid this warning.
 
-\c@lstlisting=\count296
+\c@lstlisting=\count291
 \openout2 = `Titelseite.aux'.
 
 (Titelseite.tex
@@ -631,11 +582,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2
 
-
 ] (Test.lof
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 4
 .
- (E:\Latex\tex/latex/psnfss\ts1phv.fd
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 Overfull \hbox (9.82478pt too wide) in paragraph at lines 14--14
@@ -718,7 +669,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [5
 
 
-
 ]
 \openout2 = `Abstract.aux'.
 
@@ -748,7 +698,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6
-
 
 
 ]
@@ -786,7 +735,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7
-
 
 
 ]
@@ -942,7 +890,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [0
-
 
 
 ]
@@ -1166,8 +1113,8 @@ Package pdftex.def Info: Pictures/NotNorm.png  used on input line 67.
 ! Undefined control sequence.
 \f@nch@olh ->Kapitel: \headsection 
                                    \strut 
-l.74 \begin{equation}
-                     
+l.77 \end{equation}
+                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1182,7 +1129,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[1 <./Pictures/Norm.png> <./Pictures/NotNorm.png> <./Pictures/Alias.png>]
+[1 <./Pictures/Alias.png> <./Pictures/Norm.png> <./Pictures/NotNorm.png>]
 <Pictures/NN_Concept.png, id=83, 853.1875pt x 499.8675pt>
 File: Pictures/NN_Concept.png Graphic file (type png)
 <use Pictures/NN_Concept.png>
@@ -1192,8 +1139,8 @@ Package pdftex.def Info: Pictures/NN_Concept.png  used on input line 89.
 ! Undefined control sequence.
 \f@nch@olh ->Kapitel: \headsection 
                                    \strut 
-l.99 Bei
-         Neuronalen Netzen wird zwischen zwei Algorithmen unterschieden, dem...
+l.100 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2050,11 +1997,13 @@ Overfull \hbox (9.67828pt too wide) in paragraph at lines 202--202
 io-
  []
 
-
-Overfull \hbox (0.29654pt too wide) in paragraph at lines 203--204
-\OT1/phv/m/n/12 I\TS1/phv/m/n/12 �\OT1/phv/m/n/12 C Schnitt-stel-le be-sitzt, m
-it der Pro-gram-mier-spra-che Py-thon, f[]ur Datenerfassung-
- []
+! You can't use `macro parameter character #' in horizontal mode.
+l.203 ...Windows Rechner per Programmiersprache C#
+                                                   zu erheben. Dadurch, dass...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
 
 ! LaTeX Error: \begin{document} ended by \end{flushleft}.
@@ -2063,7 +2012,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.205 \end{flushleft}
+l.204 \end{flushleft}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2072,7 +2021,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.205 \end{flushleft}
+l.204 \end{flushleft}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2083,7 +2032,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.205 \end{flushleft}
+l.204 \end{flushleft}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2094,7 +2043,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.205 \end{flushleft}
+l.204 \end{flushleft}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2105,7 +2054,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.205 \end{flushleft}
+l.204 \end{flushleft}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2116,7 +2065,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.205 \end{flushleft}
+l.204 \end{flushleft}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2127,7 +2076,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.205 \end{flushleft}
+l.204 \end{flushleft}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2138,7 +2087,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.205 \end{flushleft}
+l.204 \end{flushleft}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2149,7 +2098,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.205 \end{flushleft}
+l.204 \end{flushleft}
                      
 Things are pretty mixed up, but I think the worst is over.
 
@@ -2340,7 +2289,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [0
-
 
 
 ]
@@ -2660,11 +2608,867 @@ Overfull \hbox (2.53262pt too wide) in paragraph at lines 46--47
 den Me-ta-da-ten geh[]oren:
  []
 
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...r ist dabei die Taktrate des I²C Busses.}
+                                                   Da diese maßgebend dafü...
+
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...tragen werden \hl{Siehe Absch. X für i2c}
+                                                  . Der Zweite Faktor, welch...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...tragen werden \hl{Siehe Absch. X für i2c}
+                                                  . Der Zweite Faktor, welch...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...tragen werden \hl{Siehe Absch. X für i2c}
+                                                  . Der Zweite Faktor, welch...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...tragen werden \hl{Siehe Absch. X für i2c}
+                                                  . Der Zweite Faktor, welch...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \UTFviii@two@octets@combine has an extra }.
+<inserted text> 
+                \par 
+l.51 ...tragen werden \hl{Siehe Absch. X für i2c}
+                                                  . Der Zweite Faktor, welch...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \UTFviii@two@octets@combine was complete.
+<to be read again> 
+                   \par 
+l.51 ...tragen werden \hl{Siehe Absch. X für i2c}
+                                                  . Der Zweite Faktor, welch...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...tragen werden \hl{Siehe Absch. X für i2c}
+                                                  . Der Zweite Faktor, welch...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.51 ...tragen werden \hl{Siehe Absch. X für i2c}
+                                                  . Der Zweite Faktor, welch...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...tragen werden \hl{Siehe Absch. X für i2c}
+                                                  . Der Zweite Faktor, welch...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...tragen werden \hl{Siehe Absch. X für i2c}
+                                                  . Der Zweite Faktor, welch...
+
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \subsection
+                {Statische Datenerfassung}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \subsection
+                {Statische Datenerfassung}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.55 \subsection{Statische Datenerfassung}
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.55 \subsection{Statische Datenerfassung}
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.55 \subsection{Statische Datenerfassung}
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.55 \subsection{Statische Datenerfassung}
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.55 \subsection{Statische Datenerfassung}
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 ! Undefined control sequence.
 \f@nch@olh ->Kapitel: \headsection 
                                    \strut 
-l.56 \begin{equation}
-                     
+l.58 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[0]
+! Undefined control sequence.
+l.61 \frac{U}{R} = I \tab
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> 4.7 \ohm 
+                    
+l.67 \frac{12V}{4.7 \ohm}
+                         *2 = 5.10 A
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Pictures/Dyn_Schaltung.jpg, id=130, 657.45625pt x 613.29124pt>
+File: Pictures/Dyn_Schaltung.jpg Graphic file (type jpg)
+<use Pictures/Dyn_Schaltung.jpg>
+Package pdftex.def Info: Pictures/Dyn_Schaltung.jpg  used on input line 86.
+(pdftex.def)             Requested size: 426.79977pt x 227.61606pt.
+! Undefined control sequence.
+\f@nch@olh ->Kapitel: \headsection 
+                                   \strut 
+l.89 
+     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2681,35 +3485,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1]
 ! Undefined control sequence.
-l.58 \frac{U}{R} = I \tab
-                         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> 4.7 \ohm 
-                    
-l.64 \frac{12V}{4.7 \ohm}
-                         *2 = 5.10 A
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<Pictures/Dyn_Schaltung.jpg, id=130, 657.45625pt x 613.29124pt>
-File: Pictures/Dyn_Schaltung.jpg Graphic file (type jpg)
-<use Pictures/Dyn_Schaltung.jpg>
-Package pdftex.def Info: Pictures/Dyn_Schaltung.jpg  used on input line 83.
-(pdftex.def)             Requested size: 426.79977pt x 227.61606pt.
-! Undefined control sequence.
 \f@nch@olh ->Kapitel: \headsection 
                                    \strut 
-l.86 
-     
+l.100 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2724,31 +3503,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]
-! Undefined control sequence.
-\f@nch@olh ->Kapitel: \headsection 
-                                   \strut 
-l.97 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3 <./Pictures/Dyn_Schaltung.jpg>]
+[2 <./Pictures/Dyn_Schaltung.jpg>]
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -2761,7 +3520,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -2770,7 +3529,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -2783,7 +3542,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -2792,7 +3551,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -2805,7 +3564,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -2818,7 +3577,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2829,7 +3588,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 ! Missing { inserted.
 <to be read again> 
                    }
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2843,7 +3602,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2858,7 +3617,7 @@ See the soul package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I came across hyphenatable material enclosed in group braces,
 which I can't handle. Either drop the braces or make the material
@@ -2869,7 +3628,7 @@ I'm leaving a black square so that you can see where I am right now.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -2882,7 +3641,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -2891,7 +3650,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -2904,7 +3663,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -2913,7 +3672,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -2926,7 +3685,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -2939,7 +3698,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2950,7 +3709,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 ! Missing { inserted.
 <to be read again> 
                    }
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2964,7 +3723,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2979,7 +3738,7 @@ See the soul package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I came across hyphenatable material enclosed in group braces,
 which I can't handle. Either drop the braces or make the material
@@ -2990,7 +3749,7 @@ I'm leaving a black square so that you can see where I am right now.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -3003,7 +3762,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -3012,7 +3771,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -3025,7 +3784,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -3034,7 +3793,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -3047,7 +3806,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -3060,7 +3819,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3071,7 +3830,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 ! Missing { inserted.
 <to be read again> 
                    }
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -3085,7 +3844,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3100,7 +3859,7 @@ See the soul package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I came across hyphenatable material enclosed in group braces,
 which I can't handle. Either drop the braces or make the material
@@ -3111,7 +3870,7 @@ I'm leaving a black square so that you can see where I am right now.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -3124,7 +3883,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -3133,7 +3892,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -3146,7 +3905,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -3155,7 +3914,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -3168,7 +3927,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -3181,7 +3940,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3192,7 +3951,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 ! Missing { inserted.
 <to be read again> 
                    }
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -3206,7 +3965,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3221,7 +3980,7 @@ See the soul package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...eil von verschiedenen Signalen sein kann}
+l.112 ...eil von verschiedenen Signalen sein kann}
                                                   
 I came across hyphenatable material enclosed in group braces,
 which I can't handle. Either drop the braces or make the material
@@ -3232,7 +3991,7 @@ I'm leaving a black square so that you can see where I am right now.
 ! Undefined control sequence.
 \f@nch@olh ->Kapitel: \headsection 
                                    \strut 
-l.110 
+l.113 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3555,7 +4314,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [0
 
 
-
  <./Pictures/3_Boards_Temp.png>]
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
@@ -3739,18 +4497,30 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 \caption
-             {Messergebnisse am 14V Messbereich in $0,5V$ Schritten.}
+l.96 \caption
+             {Abtastraten von verschiedenen Wandlern unter verschiedenen Tes...
+
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
 section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+! Extra }, or forgotten \endgroup.
+\sf@endfloatbox ...gefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.97 \end{table}
+                
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 ! Undefined control sequence.
 \f@nch@olh ->Kapitel: \headsection 
                                    \strut 
-l.92 \end{table}
+l.97 \end{table}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3767,87 +4537,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2 <./Pictures/3_Board_Leistung_Filtered.png>]
-! Missing } inserted.
-<inserted text> 
-                }
-l.92 \end{table}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.92 \end{table}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.92 \end{table}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.92 \end{table}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.92 \end{table}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.92 \end{table}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.92 \end{table}
-                
-Things are pretty mixed up, but I think the worst is over.
-
-! Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.92 \end{table}
-                
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
 
 ! LaTeX Error: \begin{document} ended by \end{table}.
 
@@ -3855,54 +4544,116 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92 \end{table}
+l.97 \end{table}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.97 \end{table}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.97 \end{table}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.97 \end{table}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.97 \end{table}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.97 \end{table}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.97 \end{table}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.97 \end{table}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.97 \end{table}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.92 \end{table}
+l.97 \end{table}
                 
 Things are pretty mixed up, but I think the worst is over.
 
-! Undefined control sequence.
-\f@nch@olh ->Kapitel: \headsection 
-                                   \strut 
-l.99 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3]
-<Pictures/Speed.png, id=162, 256.5585pt x 314.3745pt>
-File: Pictures/Speed.png Graphic file (type png)
-<use Pictures/Speed.png>
-Package pdftex.def Info: Pictures/Speed.png  used on input line 102.
-(pdftex.def)             Requested size: 170.72278pt x 170.72388pt.
-<Pictures/Sinus_Aud.png, id=163, 472.01344pt x 107.65219pt>
+<Pictures/Sinus_Aud.png, id=159, 472.01344pt x 107.65219pt>
 File: Pictures/Sinus_Aud.png Graphic file (type png)
 <use Pictures/Sinus_Aud.png>
-Package pdftex.def Info: Pictures/Sinus_Aud.png  used on input line 115.
+Package pdftex.def Info: Pictures/Sinus_Aud.png  used on input line 110.
 (pdftex.def)             Requested size: 426.796pt x 170.73413pt.
-
 ! Undefined control sequence.
 \f@nch@olh ->Kapitel: \headsection 
                                    \strut 
-l.118 
+l.113 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3918,17 +4669,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4 <./Pictures/Speed.png>]
-<Pictures/Clapped_Sine.png, id=168, 420.06938pt x 312.41719pt>
+[3]
+Overfull \hbox (15.04187pt too wide) in paragraph at lines 115--116
+[]\OT1/phv/m/n/12 Dadurch, dass der Verst[]arker so-wohl po-si-ti-ve als auch n
+e-ga-ti-ve Si-gna-le verst[]arkt,
+ []
+
+<Pictures/Clapped_Sine.png, id=163, 420.06938pt x 312.41719pt>
 File: Pictures/Clapped_Sine.png Graphic file (type png)
 <use Pictures/Clapped_Sine.png>
-Package pdftex.def Info: Pictures/Clapped_Sine.png  used on input line 129.
+Package pdftex.def Info: Pictures/Clapped_Sine.png  used on input line 124.
 (pdftex.def)             Requested size: 426.79216pt x 170.71924pt.
-
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -3941,7 +4696,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -3950,7 +4705,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -3963,7 +4718,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -3972,7 +4727,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -3985,7 +4740,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -3998,7 +4753,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4009,7 +4764,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 ! Missing { inserted.
 <to be read again> 
                    }
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -4023,7 +4778,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4038,7 +4793,7 @@ See the soul package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I came across hyphenatable material enclosed in group braces,
 which I can't handle. Either drop the braces or make the material
@@ -4049,7 +4804,7 @@ I'm leaving a black square so that you can see where I am right now.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -4062,7 +4817,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -4071,7 +4826,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -4084,7 +4839,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -4093,7 +4848,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -4106,7 +4861,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -4119,7 +4874,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4130,7 +4885,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 ! Missing { inserted.
 <to be read again> 
                    }
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -4144,7 +4899,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4159,7 +4914,7 @@ See the soul package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I came across hyphenatable material enclosed in group braces,
 which I can't handle. Either drop the braces or make the material
@@ -4170,7 +4925,7 @@ I'm leaving a black square so that you can see where I am right now.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -4183,7 +4938,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -4192,7 +4947,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -4205,7 +4960,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -4214,7 +4969,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \UTFviii@two@octets@combine has an extra }.
 <inserted text> 
                 \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -4227,7 +4982,7 @@ Runaway argument?
 ! Paragraph ended before \UTFviii@two@octets@combine was complete.
 <to be read again> 
                    \par 
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -4240,7 +4995,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4251,7 +5006,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 ! Missing { inserted.
 <to be read again> 
                    }
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -4265,7 +5020,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4280,7 +5035,7 @@ See the soul package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 ...gte durch die Programmiersprache Python.}
+l.130 ...gte durch die Programmiersprache Python.}
                                                   
 I came across hyphenatable material enclosed in group braces,
 which I can't handle. Either drop the braces or make the material
@@ -4288,15 +5043,15 @@ unbreakable using an \mbox (\hbox). Note that a space
 also counts as possible hyphenation point. See page 4 of the manual.
 I'm leaving a black square so that you can see where I am right now.
 
-<Pictures/TatsDaten.png, id=169, 925.20656pt x 322.20375pt>
+<Pictures/TatsDaten.png, id=164, 925.20656pt x 322.20375pt>
 File: Pictures/TatsDaten.png Graphic file (type png)
 <use Pictures/TatsDaten.png>
-Package pdftex.def Info: Pictures/TatsDaten.png  used on input line 141.
+Package pdftex.def Info: Pictures/TatsDaten.png  used on input line 136.
 (pdftex.def)             Requested size: 426.78606pt x 170.72292pt.
 ! Undefined control sequence.
 \f@nch@olh ->Kapitel: \headsection 
                                    \strut 
-l.144 
+l.139 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4313,11 +5068,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [0 <./Pictures/Sinus_Aud.png> <./Pictures/Clapped_Sine.png>]
-<Pictures/Loss.png, id=176, 433.62pt x 289.08pt>
+<Pictures/Loss.png, id=170, 433.62pt x 289.08pt>
 File: Pictures/Loss.png Graphic file (type png)
 <use Pictures/Loss.png>
-Package pdftex.def Info: Pictures/Loss.png  used on input line 160.
-(pdftex.def)             Requested size: 426.81056pt x 199.16986pt.
+Package pdftex.def Info: Pictures/Loss.png  used on input line 155.
+(pdftex.def)             Requested size: 426.81056pt x 227.62082pt.
 )
 ! Undefined control sequence.
 \f@nch@olh ->Kapitel: \headsection 
@@ -4384,7 +5139,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3
 
 
-
 ]
 \openout2 = `Literaturverzeichnis.aux'.
 
@@ -4416,16 +5170,41 @@ l.62 \include{Literaturverzeichnis}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.62 \include{Literaturverzeichnis}
-                                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+
+Overfull \hbox (45.95648pt too wide) in paragraph at lines 3--62
+\OT1/phv/m/n/12 https://arxiv.org/abs/1710.05941 Quel-le: https://www.analog.co
+m/en/technical-articles/i2c-
+ []
+
+
+Overfull \hbox (7.96284pt too wide) in paragraph at lines 3--62
+\OT1/phv/m/n/12 primer-what-is-i2c-part-1.html https://www.researchgate.net/fig
+ure/Artificial-neural-
+ []
+
+
+Overfull \hbox (95.67459pt too wide) in paragraph at lines 3--62
+\OT1/phv/m/n/12 network-architecture-ANN-i-h-1-h-2-h-n-o$[]\OML/cmm/m/it/12 ig\
+OT1/cmr/m/n/12 1[]21259051\OML/cmm/m/it/12 https \OT1/cmr/m/n/12 : \OML/cmm/m/i
+t/12 ==www:fairaudio:de=lexikon=alias \OMS/cmsy/m/n/12  
+ []
+
+
+Overfull \hbox (103.03531pt too wide) in paragraph at lines 3--62
+\OML/cmm/m/it/12 effekt \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 aliasing=https \OT1
+/cmr/m/n/12 : \OML/cmm/m/it/12 ==www:microchip:com=Developmenttools=ProductDeta
+ils=DV\OT1/cmr/m/n/12 164122\OML/cmm/m/it/12 https \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (44.8485pt too wide) in paragraph at lines 3--62
+\OML/cmm/m/it/12 Message \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 Frame \OMS/cmsy/m/
+n/12   \OML/cmm/m/it/12 and \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 Bit \OMS/cmsy/m
+/n/12   \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 :pnghttps \OT1/cmr/m/n/12 : \OML/cmm/
+m/it/12 ==www:ti:com=lit=an=slva\OT1/cmr/m/n/12 704\OML/cmm/m/it/12 =slva\OT1/c
+mr/m/n/12 704\OML/cmm/m/it/12 :pdf\OT1/cmr/m/n/12 ?\OML/cmm/m/it/12 ts \OT1/cmr
+/m/n/12 =
+ []
 
 ! Undefined control sequence.
 \f@nch@olh ->Kapitel: \headsection 
@@ -4449,14 +5228,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [4
 
 
-
 ]
 \openout2 = `Anhang.aux'.
 
  (Anhang.tex
 LaTeX Font Info:    Trying to load font information for OMS+phv on input line 1
 4.
- (E:\Latex\tex/latex/psnfss\omsphv.fd
+
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
@@ -4464,7 +5243,7 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 LaTeX Font Info:    Trying to load font information for OML+phv on input line 2
 3.
 
-(E:\Latex\tex/latex/psnfss\omlphv.fd
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlphv.fd
 File: omlphv.fd 
 )
 LaTeX Font Info:    Font shape `OML/phv/m/n' in size <10> not available
@@ -4490,7 +5269,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5
-
 
 
 ]
@@ -4614,7 +5392,7 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-(E:\Latex\tex/latex/listings\lstlang1.sty
+(C:\Users\lamer\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 ! Missing $ inserted.
@@ -4633,17 +5411,6 @@ l.244
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.244 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -4659,17 +5426,6 @@ l.252
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.252 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 ! Missing $ inserted.
 <inserted text> 
@@ -4687,27 +5443,14 @@ l.258
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.258 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.258 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Overfull \hbox (10.938pt too wide) in paragraph at lines 254--258
+[]\OT1/phv/m/n/12 def calc$[]\OML/cmm/m/it/12 emp\OT1/cmr/m/n/12 (\OML/cmm/m/it
+/12 val[]igh; val[]ow\OT1/cmr/m/n/12 ) : \OML/cmm/m/it/12 val \OT1/cmr/m/n/12 =
+ (\OML/cmm/m/it/12 val[]igh << \OT1/cmr/m/n/12 8) + \OML/cmm/m/it/12 val[]owTem
+p \OT1/cmr/m/n/12 = ((\OML/cmm/m/it/12 val=\OT1/cmr/m/n/12 1024 \OMS/cmsy/m/n/1
+2 
+ []
 
 ! Missing $ inserted.
 <inserted text> 
@@ -4730,27 +5473,14 @@ l.263
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.263 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.263 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Overfull \hbox (0.48976pt too wide) in paragraph at lines 259--263
+[]\OT1/phv/m/n/12 def calc$[][]\OML/cmm/m/it/12 ut\OT1/cmr/m/n/12 (\OML/cmm/m/i
+t/12 val[]igh; val[]ow\OT1/cmr/m/n/12 ) : \OML/cmm/m/it/12 val \OT1/cmr/m/n/12 
+= (\OML/cmm/m/it/12 val[]igh << \OT1/cmr/m/n/12 8) + \OML/cmm/m/it/12 val[]owAm
+ps \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 val=\OT1/cmr/m/n/12 1024 \OMS/cmsy/m/n/1
+2 
+ []
 
 ! Missing $ inserted.
 <inserted text> 
@@ -4773,28 +5503,6 @@ l.268
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.268 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.268 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -4816,28 +5524,6 @@ l.274
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.274 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.274 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -4853,28 +5539,6 @@ l.276
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.276 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.276 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
 ! Missing $ inserted.
 <inserted text> 
@@ -4892,28 +5556,6 @@ l.278
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.278 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.278 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -4929,28 +5571,6 @@ l.281
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.281 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.281 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
 ! Missing $ inserted.
 <inserted text> 
@@ -4968,28 +5588,6 @@ l.284
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.284 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.284 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -5005,28 +5603,6 @@ l.287
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.287 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.287 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
 ! Missing $ inserted.
 <inserted text> 
@@ -5044,28 +5620,6 @@ l.290
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.290 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.290 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -5082,48 +5636,15 @@ l.296
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.296 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.296 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Overfull \hbox (76.49358pt too wide) in paragraph at lines 292--296
+[]\OT1/phv/m/n/12 new$[]\OML/cmm/m/it/12 ow \OT1/cmr/m/n/12 = []\OML/cmm/m/it/1
+2 current[]ime \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 datetime:now\OT1/cmr/m/n/12 (
+)\OML/cmm/m/it/12 :strftime\OT1/cmr/m/n/12 ("\OML/cmm/m/it/12 new[]ow:append\OT
+1/cmr/m/n/12 (\OML/cmm/m/it/12 current[]ime\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 TE
+MP \OT1/cmr/m/n/12 =
+ []
 
-! Undefined control sequence.
-\f@nch@olh ->Kapitel: \headsection 
-                                   \strut 
-l.297   n
-         ew_row.append(TEMP)
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -5140,28 +5661,26 @@ l.298
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.298 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+! Undefined control sequence.
+\f@nch@olh ->Kapitel: \headsection 
+                                   \strut 
+l.299   I
+         _OUT = calc_i_out(i_high, i_low)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.298 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -5182,28 +5701,6 @@ l.301
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.301 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.301 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
 ! Missing $ inserted.
 <inserted text> 
@@ -5226,28 +5723,6 @@ l.304
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.304 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.304 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -5269,28 +5744,6 @@ l.307
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.307 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.307 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -5307,28 +5760,6 @@ l.309
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.309 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.309 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -5344,28 +5775,6 @@ l.311
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.311 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.311 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
 ! Missing $ inserted.
 <inserted text> 
@@ -5394,27 +5803,13 @@ l.318
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.318 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.318 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Overfull \hbox (58.24104pt too wide) in paragraph at lines 312--318
+[]\OT1/phv/m/n/12 bus = SM-Bus(1) whi-le(1): try: Da-ta1 = rec$[]\OML/cmm/m/it/
+12 ata\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 DEV[]DDR\OT1/cmr/m/n/12 1)\OML/cmm/m/it
+/12 withopen\OT1/cmr/m/n/12 ("\OML/cmm/m/it/12 Test:txt\OT1/cmr/m/n/12 "\OML/cm
+m/m/it/12 ;[] a[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 asf \OT1/cmr/m/n/12 :
+ []
 
 
 ! Undefined control sequence.
@@ -5440,7 +5835,7 @@ I'm ignoring this, since I wasn't doing a \def {lstlisting}\begingroup \makeatl
 etter \catcode `\==12\relax \catcode \active =\active \lstlisting@.
 
 
-! LaTeX Error: \begin{flushleft} on input line 95 ended by \end{lstlisting}.
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -5451,6 +5846,46 @@ l.324 \end{lstlisting}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.324 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.324 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.324 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.324 \end{lstlisting}
+                      
+Things are pretty mixed up, but I think the worst is over.
 
 ! Undefined control sequence.
 \f@nch@olh ->Kapitel: \headsection 
@@ -5765,24 +6200,29 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10839 strings out of 479697
- 183787 string characters out of 2884124
- 948511 words of memory out of 3000000
- 27685 multiletter control sequences out of 15000+200000
- 426912 words of font info for 66 fonts, out of 3000000 for 9000
+ 11185 strings out of 481199
+ 198546 string characters out of 2905595
+ 808272 words of memory out of 3000000
+ 26533 multiletter control sequences out of 15000+200000
+ 558882 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 120i,12n,124p,1592b,2574s stack positions out of 5000i,500n,10000p,200000b,50000s
-{E:/Latex/fonts/enc/dvips/base/8r.enc}<E:/Latex/fonts/type1/public/amsfonts/c
-m/cmex10.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Latex/font
-s/type1/public/amsfonts/cm/cmmi12.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Latex/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><E:/Latex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><E:/Latex/fonts/type1/u
-rw/helvetic/uhvb8a.pfb><E:/Latex/fonts/type1/urw/helvetic/uhvr8a.pfb><E:/Latex/
-fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Test.pdf (48 pages, 1418817 bytes).
+ 76i,12n,68p,1592b,2517s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/lamer/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
+/Users/lamer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Users/lamer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Users/lamer/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb><C:/Users/lamer/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lamer/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lamer/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lamer/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lamer/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lamer
+/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/la
+mer/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users
+/lamer/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Test.pdf (47 pages, 1410129 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
+ 267 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

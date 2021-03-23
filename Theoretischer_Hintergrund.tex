@@ -56,17 +56,17 @@ Um dies zu verdeutlichen, sind in Abb. \hl{X} zwei Signale zu erkennen. Das ursp
     \caption{Beispiel des Alias Effekt}
 \end{figure}
 
-\section{Normalisierung der Daten}
+\subsection{Normalisierung der Daten}
 Im bereich des Maschine Learning und Data Science ist es gängige Praxis vorhandene Daten, welche unterschiedliche Skalierungen besitzen zu Normalisieren. Normalisieren bedeutet, dass Daten insoweit verändert werden, dass sie in einem bestimmten Wertebereich dargestellt werden können. Diesbezüglich existieren mehrere Rechenmethoden, wie z. B. die z-Transformation oder feature scaling. Im Folgenden soll der Algorithmus des feature scaling näher erläutert werden. 
 
 
-\begin{figure}%
+\begin{figure}[H]
     \centering
     \subfloat[\centering Normalisierte Daten]{{\includegraphics[width=6cm]{Pictures/Norm.png} }}%
     \qquad
     \subfloat[\centering Daten vor der Normalisierung]{{\includegraphics[width=6cm]{Pictures/NotNorm.png} }}%
     \caption{Normalisierung von Daten}%
-    \label{Aktivierungsfunktionen}%
+    \label{Normalisierung}%
 \end{figure}
 
 In Abb. \hl{x} (b) ist ein Datensatz mit tausend zufällig generierten Werten zwischen -50 und +50 zu erkennen. Durch das anwenden der Gleichung \hl{x} für Normalisierte Daten, wobei max(x) und min(x) jeweils die maximalen, bzw. minimalen Datenwerte des Datensatzes sind, wird der Datensatz auf Werte zwischen null und eins angepasst. Dies hat für Maschine Learning Anwendungen den Vorteil, dass die Trainingszeit verkürzt werden kann und die Chance verringert wird, in lokalen Minima der Kostenfunktion \hl{"stecken zu bleiben"}. 
@@ -200,6 +200,5 @@ J(\theta)' = \frac{\partial J}{\partial \Theta}
 \end{figure}
 	        
 \subsection{Verwendeten Platformen, Programmiersprachen und Bibliotheken}
-Zur Datenerhebung per I²C wurde in erster Instanz ein PICkit Serial Analyzer verwendet. Es stellte sich jedoch heraus, dass die Datenrate bei diesem zu gering war, um eine hohe Datenmenge pro Zeiteinheit zu erheben. Aus diesem Grund wurde für die dynamischen Tests ein Raspberry Pi 4 (4 GB RAM), welche einer I²C Schnittstelle besitzt, mit der Programmiersprache Python, für Datenerfassung- und Verarbeitung verwendet. Des Weiteren wurde für das Erstellen von Neuronalen Netzen die Bibliothek "Tensorflow" verwendet, wobei Keras als High-Level API dient. Die graphische Visualisierung der Daten erfolgt ausschließlich per Pyplot library.
-
+Zur Datenerhebung per I²C wurde zwei weitgehend unterschiedliche Platformen verwendet. Zum einen wurde ein PICkit Serial Analyzer genutzt, um die Daten von einem Windows Rechner per Programmiersprache C# zu erheben. Dadurch, dass dieser Ansatz jedoch nur ein geringe Datenrate pro Sekunde erzielte, wurde stattdessen auf einen Raspberry Pi 4 gewechselt, welcher einer I²C Schnittstelle besitzt. Des Weiteren wurde für die Datenerfassung- und Verarbeitung die Sprache Python gewählt, da diese eine hohe Flexibilität bezüglich der Nutzbaren Bibliotheken mit sich bring. Das trainieren des Neuronalen Netzes erfolgt auf einem Windows Rechner mit der Maschine Learning Platoform Tensorflow, wobei Keras als High-Level API dient. Die graphische Visualisierung der Daten erfolgt ausschließlich per Pyplot library.
 \end{flushleft}
